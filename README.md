@@ -78,6 +78,7 @@ Enable SPI:
 
 When prompted to enable the SPI interface, select Yes.
 
+Press Finish
 Reboot
 ```bash
 admin@TeamA-1:~ $ sudo reboot

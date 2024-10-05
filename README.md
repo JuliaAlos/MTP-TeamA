@@ -62,6 +62,20 @@ Signin for remote access:
 ```bash
 admin@TeamA-1:~ $ rpi-connect signin
 ```
+## Enabling SPI bus
+```bash
+admin@TeamA-1:~ $ sudo raspi-config
+```
+Reboot
+```bash
+admin@TeamA-1:~ $ sudo reboot
+```
+Verify SPI
+```bash
+admin@TeamA-1:~ $ ls /dev/spidev*
+```
+You should see something like `/dev/spidev0.0 /dev/spidev0.1`
+
 
 
 

@@ -66,6 +66,18 @@ admin@TeamA-1:~ $ rpi-connect signin
 ```bash
 admin@TeamA-1:~ $ sudo raspi-config
 ```
+Navigate to the Interfacing Options menu:
+
+Use the arrow keys to navigate to the option labeled Interfacing Options and press Enter.
+
+Select SPI:
+
+In the Interfacing Options menu, select the option SPI (Serial Peripheral Interface) and press Enter.
+
+Enable SPI:
+
+When prompted to enable the SPI interface, select Yes.
+
 Reboot
 ```bash
 admin@TeamA-1:~ $ sudo reboot
@@ -74,7 +86,7 @@ Verify SPI
 ```bash
 admin@TeamA-1:~ $ ls /dev/spidev*
 ```
-You should see something like `/dev/spidev0.0 /dev/spidev0.1`
+You should see something like this: `/dev/spidev0.0 /dev/spidev0.1`
 
 
 

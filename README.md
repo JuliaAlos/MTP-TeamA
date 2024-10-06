@@ -31,6 +31,18 @@ Navigate to Devices and click on Connect to the desired device to open the termi
 To communicate with the nRF24L01 transceiver, we will be using the following library:
 - [RF24 Library](https://github.com/nRF24/RF24)
 
+## Pinout 
+Transciever Module:
+
+![image](https://github.com/user-attachments/assets/d2561e2a-fe41-40c8-9025-78ce05e0348d)
+
+Raspberry:
+
+![image](https://github.com/user-attachments/assets/17453af8-12b1-4194-82ef-b51328284eda)
+
+[Pinout](https://pinout.xyz/pinout/3v3_power)
+
+
 ## Tasks
 - [x] Install OS & Set up.
 - [ ] Read file from USB: Detect when an USB device has been connected and read the content of the .txt file.

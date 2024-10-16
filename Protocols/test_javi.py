@@ -110,7 +110,7 @@ def compress_data(data: bytes) -> bytes:
     :return: The compressed data
     :rtype: bytes
     """
-    SPLIT_SIZE = 1 * 1024  # 1 KB
+    SPLIT_SIZE = 10 * 1024  # 10 KB
     compressed_data = []
     for i in range(0, len(data), SPLIT_SIZE):
         try:
@@ -135,27 +135,31 @@ def master(count: int = 1):
         file_buff = read_file()
         compressed_file = compress_data(file_buff)
         i = 0
-        print("Data split into {} blocks".format(len(compressed_file)))
-        for block in compressed_file:
+        for j, block in enumerate(compressed_file):
+            print("Sending block ", j)
             length = len(block)
             num_packets = math.ceil(length / SIZE)
+            print("Content of the block: ", zlib.decompress(block))
             while i <= num_packets:  # cycle through all the payloads
                 buffer = block[i*SIZE:SIZE*i+SIZE]  # make a payload\
                 if not radio.writeFast(buffer):  # transmission failed
                     failures += 1  # increment manual retry count
+                    
                     if failures > 99 and multiplier < 2:
                         # we need to prevent an infinite loop
                         print("Too many failures detected. Aborting at payload ")
                         multiplier = count  # be sure to exit the for loop
                         break  # exit the while loop
+
                     radio.reUseTX()  # resend payload in top level of TX FIFO
                 else:  # transmission succeeded
                     i += 1
-                os.system('clear')
+
                 print("Sent packet:", i, "of", num_packets)
+
             while not radio.writeFast(EOB): # Send EOB special packet
                 radio.reUseTX()
-            print("End of block sent")
+            print("     End of block sent for block ", j)
 
         while not radio.writeFast(EOT):  # send EOT special packet
             radio.reUseTX()  # resend payload in top level of TX FIFO
@@ -179,6 +183,7 @@ def slave(timeout: int = 15):
     receive_payload = b''
     compressed_data = b''
     eot_received = False
+    block_id = 0
     while (time.monotonic() - start_timer) < timeout:
         if radio.available():
             # retrieve the received packet's payload
@@ -189,9 +194,11 @@ def slave(timeout: int = 15):
                 print("End of transmission received. Leaving RX role")
                 eot_received = True
                 break
+
             # If the new received packet is the EOB packet, decompress the Block
             if new_payload == EOB:
-                print("End of block received. Trying decompression")
+
+                print("End of block received ", block_id, ".Attempting decompression...")
                 try:
                     receive_payload += zlib.decompress(compressed_data)
                     print("Decompression successful")
@@ -202,19 +209,18 @@ def slave(timeout: int = 15):
                     # HERE WE SHOULD SEND AN ACK WITH REQUEST TO RESEND THE BLOCK
             else:
                 compressed_data += new_payload
-                count = 1
-                os.system('clear')
-                print("Received:", compressed_data, "-", count)
+                count += 1
+                print("Received:-", count)
             start_timer = time.monotonic()  # reset timer on every RX payload
 
     if not eot_received:
         print("Timeout occurred. Leaving RX role")
     else:
         print("Transmission successful")
-
+    
+    # Open the file for writing (this will overwrite the file if it exists)
     file_path = 'output_file.txt'
     try:
-        # Open the file for writing (this will overwrite the file if it exists)
         with open(file_path, 'w') as file:
             file.write(receive_payload.decode('utf-8'))
     except IOError as e:

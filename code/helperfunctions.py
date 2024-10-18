@@ -1,5 +1,4 @@
 def read_file_and_return_positions(file_path):
-
     # Returns a DICTIONARY 
     # FORMAT
     # Number_of_line: line

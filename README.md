@@ -37,11 +37,13 @@ How to install it and make it work is explained below.
 ## Pinout 
 Transciever Module:
 
-![image](https://github.com/user-attachments/assets/d2561e2a-fe41-40c8-9025-78ce05e0348d)
+![image](https://github.com/user-attachments/assets/a5ab8d1a-b110-4e0c-92b2-be503d2085ef)
+
 
 Raspberry:
 
-![image](https://github.com/user-attachments/assets/17453af8-12b1-4194-82ef-b51328284eda)
+![image](https://github.com/user-attachments/assets/20f36992-9a35-421e-a23b-d12599f68fc9)
+
 
 [Pinout](https://pinout.xyz/pinout/3v3_power)
 

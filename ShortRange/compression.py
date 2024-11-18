@@ -1,8 +1,10 @@
 import zlib 
 import os
 from typing import List
+import argparse
+import math
 
-def compress_data(data: bytes, split = 10) -> List[bytes]:
+def compress_data(data: bytes, split = 10, size_payload = 31, max_pack = 255) -> List[bytes]:
     """Takes the text file and compreses it using zlib compression algorithm
     into blocks of SPLIT_SIZE KILOBYTES.
 
@@ -10,16 +12,26 @@ def compress_data(data: bytes, split = 10) -> List[bytes]:
     :param int SPLIT_SIZE: The size of the chunks to split the data into in **KB**
     :return: List with the compressed chunks
     """
+    finish = False
+    while not finish:
+        finish = True
+        SPLIT_SIZE = split * 1024  
+        compressed_data = []
+        for i in range(0, len(data), SPLIT_SIZE):
+            try:
+                split_data = data[i:i + SPLIT_SIZE] # Take SPLIT_SIZE bytes
+                compress_chunk = zlib.compress(split_data)
+                length = len(compress_chunk)
+                num_packets = math.ceil(length / size_payload)
+                if num_packets > max_pack:
+                    split -= 1 #Reduce the size of the chunk
+                    finish = False
+                    break
+                compressed_data.append(compress_chunk) # Compress the data
+            except zlib.error as e:
+                print(f"Error: An error occurred while compressing the data: {e}")
+                return []  # Return an empty bytes object
 
-    SPLIT_SIZE = split * 1024  
-    compressed_data = []
-    for i in range(0, len(data), SPLIT_SIZE):
-        try:
-            split_data = data[i:i + SPLIT_SIZE] # Take SPLIT_SIZE bytes
-            compressed_data.append(zlib.compress(split_data)) # Compress the data
-        except zlib.error as e:
-            print(f"Error: An error occurred while compressing the data: {e}")
-            return []  # Return an empty bytes object
     print("Data split into {} blocks".format(len(compressed_data)))
     print("Original size: {} bytes".format(len(data)))
     print("Compressed size: {} bytes".format(sum([len(chunk) for chunk in compressed_data])))
@@ -64,25 +76,13 @@ def find_differences(file1_path, file2_path):
 
 
 if __name__ == "__main__":
-    FILE_PATH = "file_test.txt"
-    with open(FILE_PATH, "rb") as f:
-        data = f.read()
-        f.close()
-    compressed_data = compress_data(data)
-    filepath = "decompressed.txt"
-    if os.path.exists(filepath):
-        os.remove(filepath)
-    for i, chunk in enumerate(compressed_data):
-        print("Decompressing chunk {}...".format(i))
-        success = decompress_data(chunk, filepath)
-        print(" Success: {}".format(success))
-
-    "assess that the decompressed file is the same as the original"
-    differences = find_differences(FILE_PATH, filepath)
-
-    if differences:
-        print("Differences found:")
-        for diff in differences:
-            print(diff)
-    else:
-        print("No differences found in the decompressed file")
+    # Set up argument parsing
+    parser = argparse.ArgumentParser(description="Find differences between two files.")
+    parser.add_argument("file1", help="Path to the first file")
+    parser.add_argument("file2", help="Path to the second file")
+    
+    # Parse the arguments
+    args = parser.parse_args()
+    
+    # Call the function with the provided arguments
+    find_differences(args.file1, args.file2)

@@ -73,7 +73,12 @@ def find_differences(file1_path, file2_path):
 
     return differences
 
-
+def are_files_different(file1, file2):
+    with open(file1, 'rb') as f1, open(file2, 'rb') as f2:
+        for line1, line2 in zip(f1, f2):
+            if line1 != line2:
+                return True
+    return False
 
 if __name__ == "__main__":
     # Set up argument parsing
@@ -85,4 +90,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     # Call the function with the provided arguments
-    find_differences(args.file1, args.file2)
+    if are_files_different(args.file1, args.file2):
+        print("The files are different.")
+    else:
+        print("The files are the same.")

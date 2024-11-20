@@ -19,8 +19,9 @@ BURST_SIZE = 6
 
 PING_ID = 0 # Has to be zero as message ID start at 1, to be able to differenciate between packet types
 PING_FINISH_TX_ID = 0xFFFF
+CHUNK_ERROR = 0xFF
 
-TIMEOUT_ACK_LOST = 15 # TODO: Test to ajust the parameter (Master wait the
+TIMEOUT_ACK_LOST = 25 # TODO: Test to ajust the parameter (Master wait the
                     # reception of the ACK before retransmission in ms)
 TIMEOUT_PING_LOST = 10 # TODO: In theory has to be smaller than ACK_LOST
 TIMEOUT_ACK = 0.3 # Puesto totalmente a ojo tiene que ser el tiempo que 
@@ -167,7 +168,7 @@ def ping_master(chunk_ID,num_packets):
     buffer += num_packets.to_bytes(1, 'big')
     while True:
         if radio.write(buffer):
-            print("Sent ping")
+            print(f"Sent ping {chunk_ID}")
             radio.startListening()  # put radio in RX mode
             timeout = time.monotonic() * 1000 + TIMEOUT_PING_LOST  # use 200 ms timeout
             while not radio.available() and time.monotonic() * 1000 < timeout:
@@ -179,7 +180,11 @@ def ping_master(chunk_ID,num_packets):
                 # grab the incoming payload
                 received = radio.read(PING_SIZE)
                 if (received[0] == PING_ID) and (int.from_bytes(received[1:3], byteorder='big') == chunk_ID):
-                    break
+                    if received[3] == CHUNK_ERROR:
+                        # Error in compression, resend again
+                        print("Error in compression, resend again chunk")
+                        return False
+                    return True
                 else:
                     print(f"Incorrect chunk received {received[0]} {int.from_bytes(received[1:3], byteorder='big')}")
             else:
@@ -195,15 +200,22 @@ def master():
     build_packets(compressed_data)
     start_time = time.time()  # Record the start time
 
-    for i in range(len(compressed_data)):
-        ping_master(i,len(PACKET_BUFF[i]))
+    i = 0
+    ping_master(i,len(PACKET_BUFF[i]))
+    while i < (len(compressed_data)-1):
         send_chunck(i)
+        result = ping_master(i+1,len(PACKET_BUFF[i+1]))
+        if result:
+            i +=1
+
+    send_chunck(i)
 
     end_time = time.time()    # Record the end time
     execution_time = end_time - start_time  # Calculate the difference
     print(f"The transmission took {execution_time:.2f} s.")
 
-    ping_master(PING_FINISH_TX_ID,0)
+    while not ping_master(PING_FINISH_TX_ID,0):
+        send_chunck(i)
 
 
 # ------------ SLAVE FUNCTIONS ------------
@@ -255,36 +267,39 @@ def slave():
                 received = radio.read(payload_size)  # fetch the payload
 
                 if received[0] == PING_ID:
-                    # Respond to the ping
-                    radio.stopListening()
-                    radio.writeFast(received)
-                    radio.txStandBy(0)
-                    radio.startListening()
-                    # Continue processing
-
                     chunk_ID = int.from_bytes(received[1:3], byteorder='big')
                     if chunk_ID  == (chunk_current_ID+1) or chunk_ID == PING_FINISH_TX_ID:
 
                         chunk_current_ID += 1
 
                         if chunk_current_ID != 0: # skip the first PING, no data to decompress
-                            print(f"Finish chunk {int.from_bytes(received[1:3], byteorder='big')  }")
-                            i = 0
-                            for pak in received_packets:
-                                if len(pak) !=31 and i !=0:
-                                    print(i)
-                                    i+=1
-                                    print(pack)
-                            chunk_buff.append(b''.join(received_packets[1:]))
+                            print(f"Finish chunk {int.from_bytes(received[1:3], byteorder='big')-1  }")
+                            compress_chunk = b''.join(received_packets[1:])
+                            result = decompress_data(compress_chunk, '_file.txt')
+                            if not result: # Error in the chunk request sent again
+                                print(f"Error decompression. Transmit chunk again {chunk_current_ID-1}")
+                                received[3] = CHUNK_ERROR
+                                chunk_current_ID -= 1
+                            else:
+                                received_packets = [bytes([0])] * (received[3] + 1)
+                        else:
+                            received_packets = [bytes([0])] * (received[3] + 1)
 
                         if chunk_ID == PING_FINISH_TX_ID:# Transmission finished
-                            file_path = '_file.txt'
-                            for compress_chunk in chunk_buff:
-                                decompress_data(compress_chunk, file_path)
+                            # Respond to the ping
+                            radio.stopListening()
+                            radio.writeFast(received)
+                            radio.txStandBy(0)
+                            radio.startListening()
+                            # Continue processing
                             break
 
-                        received_packets = [bytes([0])] * (received[3] + 1)
-
+                    # Respond to the ping
+                    radio.stopListening()
+                    radio.writeFast(received)
+                    radio.txStandBy(0)
+                    radio.startListening()
+                    # Continue processing
                 else:
                     if count_burst == 0:
                         start_timer = time.monotonic()

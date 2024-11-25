@@ -91,8 +91,9 @@ def build_packets(data: List[bytes]):
     for chunk_index, chunk in enumerate(data):
         length = len(chunk)
         num_packets = math.ceil(length / PAYLOAD_SIZE)
+        
         print(f"TOTAL PACK {num_packets} CHUNK {chunk_index}")
-        num_packets_average += num_packets
+        total_packets += num_packets
         messages = []
         for i in range(1, num_packets + 1):
             header = struct.pack('B', i)
@@ -100,7 +101,7 @@ def build_packets(data: List[bytes]):
             messages.append((i,header + payload))
         PACKET_BUFF[chunk_index] = messages
 
-    return num_packets/chunk_index, chunk_index
+    return total_packets/(chunk_index+1), chunk_index
 
 def send_burst(messages, length):
     global radio

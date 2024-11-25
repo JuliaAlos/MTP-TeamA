@@ -16,7 +16,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(NAV_BUTTON_PIN, GPIO.IN)
 GPIO.setup(SELECT_BUTTON_PIN, GPIO.IN)
 
-led1 = 1
+led1 = 7
 led2 = 12
 rgb_pins = {'R': 16, 'G': 20, 'B': 21}
 

@@ -16,12 +16,12 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(NAV_BUTTON_PIN, GPIO.IN)
 GPIO.setup(SELECT_BUTTON_PIN, GPIO.IN)
 
-led1 = 7
-led2 = 12
+led_verde = 7 
+led_rojo = 12
 rgb_pins = {'R': 16, 'G': 20, 'B': 21}
 
-GPIO.setup(led1, GPIO.OUT)
-GPIO.setup(led2, GPIO.OUT)
+GPIO.setup(led_verde, GPIO.OUT)
+GPIO.setup(led_rojo, GPIO.OUT)
 for pin in rgb_pins.values():
     GPIO.setup(pin, GPIO.OUT)
 
@@ -30,8 +30,8 @@ button_pressed_flag = threading.Event()
 lcd = LCDHandler()
 
 def clear_leds():
-    GPIO.output(led1, GPIO.LOW)
-    GPIO.output(led2, GPIO.LOW)
+    GPIO.output(led_verde, GPIO.LOW)
+    GPIO.output(led_rojo, GPIO.LOW)
     for pin in rgb_pins.values():
         GPIO.output(pin, GPIO.LOW)
 
@@ -45,38 +45,40 @@ def update_leds(menu, submenu):
     clear_leds()
 
     if menu == "Main Menu" and submenu == "Short":
-        GPIO.output(led1, GPIO.HIGH)
+        GPIO.output(led_verde, GPIO.HIGH)
     if menu == "Main Menu" and submenu == "Mid":
-        GPIO.output(led2, GPIO.HIGH)
+        GPIO.output(led_rojo, GPIO.HIGH)
     if menu == "Main Menu" and submenu == "Network":
-        GPIO.output(led1, GPIO.HIGH)
-        GPIO.output(led2, GPIO.HIGH)
+        GPIO.output(led_verde, GPIO.HIGH)
+        GPIO.output(led_rojo, GPIO.HIGH)
 
     if menu == "Short":
-        GPIO.output(led1, GPIO.HIGH)
+        set_rgb_color(0,1,0)
         if submenu == "Tx USB":
-            set_rgb_color(1, 0, 0)  # Rojo
+            GPIO.output(led_verde, GPIO.HIGH) 
         elif submenu == "Rx ST":
-            set_rgb_color(0, 1, 0)  # Verde
+            GPIO.output(led_rojo, GPIO.HIGH) 
         elif submenu == "Back":
-            set_rgb_color(1,1, 0)
+            GPIO(led_rojo, GPIO.HIGH)
+            GPIO(led_verde, GPIO.HIGH)
     if menu == "Mid":
-        GPIO.output(led2, GPIO.HIGH)
+        set_rgb_color(1, 0, 0)
         if submenu == "Tx USB":
-            set_rgb_color(1, 0, 0)  # Rojo
+            GPIO.output(led_verde, GPIO.HIGH) 
         elif submenu == "Rx ST":
-            set_rgb_color(0, 1, 0)  # Verde
+            GPIO.output(led_rojo, GPIO.HIGH) 
         elif submenu == "Back":
-            set_rgb_color(1,1,1)
+            GPIO(led_rojo, GPIO.HIGH)
+            GPIO(led_verde, GPIO.HIGH)
     if menu == "Network":
-        GPIO.output(led1, GPIO.HIGH)
-        GPIO.output(led2, GPIO.HIGH)
+        set_rgb_color(0, 0, 1)
         if submenu == "Tx USB":
-            set_rgb_color(1, 0, 0)  # Rojo
+            GPIO.output(led_verde, GPIO.HIGH) 
         elif submenu == "Rx ST":
-            set_rgb_color(0, 1, 0)  # Verde
+            GPIO.output(led_rojo, GPIO.HIGH) 
         elif submenu == "Back":
-            set_rgb_color(1,1,1)
+            GPIO(led_rojo, GPIO.HIGH)
+            GPIO(led_verde, GPIO.HIGH)
 
 class MenuItem:
     def __init__(self, name, action=None, parent=None):
@@ -128,6 +130,8 @@ def master_file():
         full_path = os.path.join(path, selected_file)
         file_buffer = USB.read_file(full_path)
         master(file_buffer, lcd)
+        
+        
 
 
 def slave_file():
@@ -188,7 +192,7 @@ try:
         if GPIO.input(NAV_BUTTON_PIN) == GPIO.HIGH:
             current_index = (current_index + 1) % len(current_menu.submenus)
             show_current_menu()
-            time.sleep(0.3)  
+            time.sleep(1)  
 
         if GPIO.input(SELECT_BUTTON_PIN) == GPIO.HIGH:
             selected_item = current_menu.submenus[current_index]
@@ -203,7 +207,7 @@ try:
                 selected_item.execute()
 
             show_current_menu()
-            time.sleep(0.3) 
+            time.sleep(1) 
 
 except KeyboardInterrupt:
     pass
@@ -212,4 +216,4 @@ finally:
     lcd.clear()
     clear_leds()
     GPIO.cleanup()
-    GPIO.output(led1, GPIO.LOW)
+    GPIO.output(led_verde, GPIO.LOW)

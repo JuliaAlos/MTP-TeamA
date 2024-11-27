@@ -8,11 +8,29 @@ from compression import compress_data, decompress_data
 import struct
 from typing import List
 import RPi.GPIO as GPIO
+import threading
 
 radio = None
 
-NAV_BUTTON_PIN = 23  
-SELECT_BUTTON_PIN = 24  
+NAV_BUTTON_PIN = 23
+SELECT_BUTTON_PIN = 24
+finish_transmission = False
+
+def button_monitor():
+    while True:
+        if GPIO.input(NAV_BUTTON_PIN) == GPIO.HIGH:
+            press_start_time = time.time()
+
+            while GPIO.input(NAV_BUTTON_PIN) == GPIO.HIGH:
+                # Check if 2 seconds have passed
+                if time.time() - press_start_time >= 1:
+                    print("Button pressed")
+                    global finish_transmission
+                    finish_transmission = True
+                    break  # Exit the loop after 2 seconds
+
+        time.sleep(0.5)  # Short delay to avoid busy-waiting
+
 
 MAX_SIZE = 32  # this is the default maximum payload size
 HEADER_SIZE = 1 # ID of the message
@@ -39,6 +57,10 @@ MESSAGE_BUFF = [] # Contain the list of messages of one chunk
 
 def init_radio(mode):
     global radio
+    global chunk_current_ID
+    chunk_current_ID = -1
+    global finish_transmission
+    finish_transmission = False
     CSN_PIN = 0  # GPIO8 aka CE0 on SPI bus 0: /dev/spidev0.0
     if RF24_DRIVER == "MRAA":
         CE_PIN = 15  # for GPIO22
@@ -47,7 +69,6 @@ def init_radio(mode):
     else:
         CE_PIN = 22
     radio = RF24(CE_PIN, CSN_PIN)
-    
 
     # initialize the nRF24L01 on the spi bus
     if not radio.begin():
@@ -69,7 +90,7 @@ def init_radio(mode):
     radio.openReadingPipe(1, address[not radio_number])  # using pipe 1
 
     radio.enableDynamicPayloads()
-    radio.setChannel(90)
+    radio.setChannel(86)
 
     # for debugging, we have 2 options that # print a large block of details
     # (smaller) function that # prints raw register values
@@ -77,23 +98,18 @@ def init_radio(mode):
     # (larger) function that # prints human readable data
     # radio.# printPrettyDetails()
 
-    def reset_radios():
-        GPIO.setup(CE_PIN, GPIO.OUT)
-        GPIO.output(CE_PIN, GPIO.LOW)  # Apagar el pin CE
-    
 # ------------ MASTER FUNCTIONS ------------
 
 def build_packets(data: List[bytes]):
     global PACKET_BUFF
     PACKET_BUFF = [[]] * len(data)
-    num_packets_average = 0
+    total_chunks = 0
 
     for chunk_index, chunk in enumerate(data):
         length = len(chunk)
         num_packets = math.ceil(length / PAYLOAD_SIZE)
-        
         print(f"TOTAL PACK {num_packets} CHUNK {chunk_index}")
-        total_packets += num_packets
+        total_chunks += num_packets
         messages = []
         for i in range(1, num_packets + 1):
             header = struct.pack('B', i)
@@ -101,7 +117,7 @@ def build_packets(data: List[bytes]):
             messages.append((i,header + payload))
         PACKET_BUFF[chunk_index] = messages
 
-    return total_packets/(chunk_index+1), chunk_index
+    return math.ceil(total_chunks / (chunk_index + 1)), chunk_index
 
 def send_burst(messages, length):
     global radio
@@ -118,17 +134,19 @@ def send_burst(messages, length):
 def send_chunck(chunk_ID):
     global MESSAGE_BUFF
     global PACKET_BUFF
+    global finish_transmission
 
     MESSAGE_BUFF = PACKET_BUFF[chunk_ID]
     count = 0
-    while len(MESSAGE_BUFF) !=0:
+    while len(MESSAGE_BUFF) !=0 and not finish_transmission:
         burst = MESSAGE_BUFF[:BURST_SIZE]
         send_burst(burst,len(burst))
-        wait_ack(count)
-        count+=1
+        if not wait_ack():
+            count+=1
+    return count
 
 
-def wait_ack(packet):
+def wait_ack():
     global radio
     global MESSAGE_BUFF
     timeout = time.monotonic() * 1000 + TIMEOUT_ACK_LOST  # use 200 ms timeout
@@ -144,16 +162,20 @@ def wait_ack(packet):
             if has_payload:
                 ack_size = radio.getDynamicPayloadSize()
                 received = radio.read(ack_size)
-                if received[0] != PING_ID:
-                    for _,ack_ID in enumerate(received):
-                        # print(f"ACK received {ack_ID}")
-                        MESSAGE_BUFF = [element for element in MESSAGE_BUFF if element[0] != ack_ID]
-                else:
-                    print("Received PING when not expected, discart")
+                try:
+                    if received[0] != PING_ID:
+                        for _,ack_ID in enumerate(received):
+                            # print(f"ACK received {ack_ID}")
+                            MESSAGE_BUFF = [element for element in MESSAGE_BUFF if element[0] != ack_ID]
+                    else:
+                        print("Received PING when not expected, discart")
+                except:
+                    print("Wrong size")
             else:
-                break
+                return True
     else:
-        print(f"No response received. TIMEOUT_ACK {packet}")
+        print(f"No response received. TIMEOUT_ACK")
+        return False
 
 def ping_master(chunk_ID,num_packets, lcd):
     """
@@ -168,9 +190,9 @@ def ping_master(chunk_ID,num_packets, lcd):
     buffer += PING_ID.to_bytes(1, 'big')
     buffer += chunk_ID.to_bytes(2, 'big')
     buffer += num_packets.to_bytes(1, 'big')
-    lcd.show_message_on_lcd(f"Ping {chunk_ID}")
+    global finish_transmission
 
-    while True:
+    while not finish_transmission:
         if radio.write(buffer):
             print(f"Sent ping {chunk_ID}")
             radio.startListening()  # put radio in RX mode
@@ -179,20 +201,23 @@ def ping_master(chunk_ID,num_packets, lcd):
                 pass
             radio.stopListening()  # put radio in TX mode
 
-            has_payload, pipe_number = radio.available_pipe()
-            if has_payload:
-                # grab the incoming payload
-                received = radio.read(PING_SIZE)
-                if (received[0] == PING_ID) and (int.from_bytes(received[1:3], byteorder='big') == chunk_ID):
-                    if received[3] == CHUNK_ERROR:
-                        # Error in compression, resend again
-                        print("Error in compression, resend again chunk")
-                        return False
-                    return True
+            try:
+                has_payload, pipe_number = radio.available_pipe()
+                if has_payload:
+                    # grab the incoming payload
+                    received = radio.read(PING_SIZE)
+                    if (received[0] == PING_ID) and (int.from_bytes(received[1:3], byteorder='big') == chunk_ID):
+                        if received[3] == CHUNK_ERROR:
+                            # Error in compression, resend again
+                            print("Error in compression, resend again chunk")
+                            return False
+                        return True
+                    else:
+                        print(f"Incorrect chunk received {received[0]} {int.from_bytes(received[1:3], byteorder='big')}")
                 else:
-                    print(f"Incorrect chunk received {received[0]} {int.from_bytes(received[1:3], byteorder='big')}")
-            else:
-                print("No response received.")
+                    print("No response received.")
+            except:
+                print("Wrong size")
         else:
             print("Transmission failed or timed out")
     # print(f"Ping chunk recieved {chunk_ID}.")
@@ -202,68 +227,69 @@ def master(file_buffer, lcd):
     global PACKET_BUFF
     compressed_data, compression = compress_data(file_buffer)
     num_packets, chunk_index = build_packets(compressed_data)
-    lcd.show_message_on_lcd(f"CP {compression:.2f} C: {chunk_index} \n PxC:{num_packets}")
+    lcd.show_message_on_lcd(f"CP: {compression:.2f} PxC:{num_packets} \nChunks: {chunk_index+1}")
+
+    monitor_thread = threading.Thread(target=button_monitor)
+    monitor_thread.daemon = True  # Allow thread to exit when main program exits
+    monitor_thread.start()
+    global finish_transmission
+
     while GPIO.input(SELECT_BUTTON_PIN) == GPIO.LOW: 
         pass
 
     start_time = time.time()  # Record the start time
 
     i = 0
+    lcd.show_message_on_lcd(f"Start transmission")
     ping_master(i,len(PACKET_BUFF[i]), lcd)
-    while i < (len(compressed_data)-1):
-        send_chunck(i)
+    while i < (len(compressed_data)-1) and not finish_transmission:
+        timeout_ack = send_chunck(i)
         result = ping_master(i+1,len(PACKET_BUFF[i+1]), lcd)
         if result:
             i +=1
-            lcd.show_message_on_lcd(f"Chunk {i} \n sent")
+        lcd.show_message_on_lcd(f"Chunk {i} sent \nTimeouts {timeout_ack}")
 
-    send_chunck(i)
+    if not finish_transmission:
+        send_chunck(i)
 
-    end_time = time.time()    # Record the end time
-    execution_time = end_time - start_time  # Calculate the difference
-    print(f"The transmission took {execution_time:.2f} s.")
-    lcd.show_message_on_lcd(f"Time: {execution_time:.2f}")
+        end_time = time.time()    # Record the end time
+        execution_time = end_time - start_time  # Calculate the difference
+        print(f"The transmission took {execution_time:.2f} s.")
+        lcd.show_message_on_lcd(f"Time: {execution_time:.2f}")
+
+        while not ping_master(PING_FINISH_TX_ID,0,lcd) and not finish_transmission:
+            send_chunck(i)
+        radio.powerDown()
+        time.sleep(10)
+        lcd.show_message_on_lcd(f"(^_^)")
+        time.sleep(10)
+    else:
+        radio.powerDown()
+        lcd.show_message_on_lcd(f"Time Finish")
+        time.sleep(10)
+
     
 
-    while not ping_master(PING_FINISH_TX_ID,0):
-        send_chunck(i)
 
 
 # ------------ SLAVE FUNCTIONS ------------
-
-def ping_slave(payload):
-    """
-        Ping to sichronize both nodes before starting the transmission of a chunk
-    """
-
-    global chunk_current_ID
-    global radio
-
-    chunk_revc = int.from_bytes(payload[1:3], byteorder='big')  
-
-    if (chunk_revc == (chunk_current_ID + 1)):
-        radio.stopListening()  # put radio in TX mode
-        radio.writeFast(payload)  # load response into TX FIFO
-        radio.txStandBy(0)
-        radio.startListening()  # put radio back in RX mode
-        chunk_current_ID += 1
-        return payload[3]
-    elif (chunk_revc == PING_FINISH_TX_ID):
-        radio.stopListening()  # put radio in TX mode
-        radio.writeFast(payload)  # load response into TX FIFO
-        radio.txStandBy(0)
-        # keep retrying to send response for 150 milliseconds
-        radio.startListening()  # put radio back in RX mode
-        return 0
-    else:
-        print(f"Not expected chunk ID rev:{payload[0]}, exp:{(chunk_current_ID + 1)}")
-
-
 
 def slave(lcd):
     global radio
     global chunk_current_ID
     init_radio(1)
+
+    file_path = "_file.txt"
+
+    if os.path.exists(file_path):
+        os.remove(file_path)  # Delete the file
+        print(f"{file_path} has been deleted.")
+    else:
+        print(f"{file_path} does not exist.")
+
+    monitor_thread = threading.Thread(target=button_monitor)
+    monitor_thread.daemon = True  # Allow thread to exit when main program exits
+    monitor_thread.start()
 
     radio.startListening()  # put radio in RX mode
     lcd.show_message_on_lcd("Waiting")
@@ -272,12 +298,13 @@ def slave(lcd):
     received_packets = []
     ack_payload = b''
     chunk_buff = []
+    global finish_transmission
 
-    while True:
+    while not finish_transmission:
         has_payload, pipe_number = radio.available_pipe()
         if has_payload:
             payload_size = radio.getDynamicPayloadSize()
-            if payload_size >= 2:
+            try:
                 received = radio.read(payload_size)  # fetch the payload
 
                 if received[0] == PING_ID:
@@ -288,9 +315,9 @@ def slave(lcd):
 
                         if chunk_current_ID != 0: # skip the first PING, no data to decompress
                             print(f"Finish chunk {int.from_bytes(received[1:3], byteorder='big')-1  }")
-                            lcd.show_message_on_lcd(f"Received \n Chunk {chunk_current_ID}")
+                            lcd.show_message_on_lcd(f"Received \n Chunk {chunk_current_ID-1}")
                             compress_chunk = b''.join(received_packets[1:])
-                            result = decompress_data(compress_chunk, '_file.txt')
+                            result = decompress_data(compress_chunk, file_path)
                             if not result: # Error in the chunk request sent again
                                 print(f"Error decompression. Transmit chunk again {chunk_current_ID-1}")
                                 lcd.show_message_on_lcd(f"Resent {chunk_current_ID-1}")
@@ -299,21 +326,31 @@ def slave(lcd):
                             else:
                                 received_packets = [bytes([0])] * (received[3] + 1)
                         else:
+                            lcd.show_message_on_lcd(f"Transmission started :)")
                             received_packets = [bytes([0])] * (received[3] + 1)
 
                         if chunk_ID == PING_FINISH_TX_ID:# Transmission finished
                             # Respond to the ping
                             lcd.show_message_on_lcd("Finished")
-                            save_file_USB("_file.txt")
-                            radio.stopListening()
-                            radio.writeFast(received)
-                            radio.txStandBy(0)
-                            radio.startListening()
+                            for i in range(5):
+                                radio.stopListening()
+                                radio.writeFast(received)
+                                radio.writeFast(received)
+                                radio.txStandBy(0)
+                                radio.startListening()
+                                time.sleep(1)
+                            lcd.show_message_on_lcd("Looking for USB driver")
+                            save_file = save_file_USB(file_path)
+                            lcd.show_message_on_lcd(f"File saved to \n{save_file}")
+                            time.sleep(5)
+                            lcd.show_message_on_lcd(f"(O_O)")
+                            time.sleep(10)
                             # Continue processing
                             break
 
                     # Respond to the ping
                     radio.stopListening()
+                    radio.writeFast(received)
                     radio.writeFast(received)
                     radio.txStandBy(0)
                     radio.startListening()
@@ -338,10 +375,28 @@ def slave(lcd):
 
                         ack_payload = b''
                         count_burst = 0
+            except:
+                print("Packet wrong size")
 
     # recommended behavior is to keep in TX mode while idle
-    lcd.show_message_on_lcd("Finished")
     radio.stopListening()  # put the radio in TX mode
+    radio.powerDown()
+    print("Hello")
+    if finish_transmission:
+        lcd.show_message_on_lcd("Transmission finished")
+        time.sleep(5)
+        lcd.show_message_on_lcd("Looking for USB driver")
+        #Try to decompress last chunk
+        compress_chunk = b''.join(received_packets[1:])
+        decompress_data(compress_chunk, file_path)
+
+        save_file = save_file_USB(file_path)
+        lcd.show_message_on_lcd(f"File saved to \n{save_file}")
+        time.sleep(5)
+        lcd.show_message_on_lcd(f"(O_O)")
+        time.sleep(10)
+
+
 
 # ------------------------------------------
 

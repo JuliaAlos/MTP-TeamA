@@ -149,4 +149,34 @@ sudo dphys-swapfile swapon
 ----
 Now, everything should work. We tested it by running the example from the library. [Example](https://github.com/nRF24/RF24/blob/master/examples_linux/getting_started.py)
 
-The pins should be connected as follows:
+## Task: Automatic start python code
+```bash
+sudo nano /etc/systemd/system/mtp.service
+```
+
+```python
+[Unit]
+Description=My Python Script
+
+[Service]
+Type=simple
+User=admin
+WorkingDirectory=/home/admin/main/
+ExecStart=/bin/bash -c 'source /home/admin/myenv/bin/activate && exec python3 main.py'
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable mtp.service
+sudo systemctl start mtp.service
+sudo systemctl status mtp.service
+```
+To stop the service
+```bash
+sudo systemctl stop mtp.service
+```

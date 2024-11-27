@@ -2,15 +2,15 @@ import time
 import RPi.GPIO as GPIO
 from RPLCD.i2c import CharLCD
 import read_USB as USB
-import os 
+import os
 from Short_range import master, slave, init_radio
 from lcd_handler import LCDHandler
 import threading
 from multiprocessing import Process, Event, Queue
 
 
-NAV_BUTTON_PIN = 23  
-SELECT_BUTTON_PIN = 24  
+NAV_BUTTON_PIN = 23
+SELECT_BUTTON_PIN = 24
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(NAV_BUTTON_PIN, GPIO.IN)
@@ -27,7 +27,6 @@ for pin in rgb_pins.values():
 
 button_pressed_flag = threading.Event()
 
-
 lcd = LCDHandler()
 
 def clear_leds():
@@ -42,26 +41,42 @@ def set_rgb_color(r, g, b):
     GPIO.output(rgb_pins['B'], GPIO.HIGH if b else GPIO.LOW)
 
 def update_leds(menu, submenu):
+    print(f"Updating LEDs for Menu: {menu}, Submenu: {submenu}")  # Debug
     clear_leds()
+
+    if menu == "Main Menu" and submenu == "Short":
+        GPIO.output(led1, GPIO.HIGH)
+    if menu == "Main Menu" and submenu == "Mid":
+        GPIO.output(led2, GPIO.HIGH)
+    if menu == "Main Menu" and submenu == "Network":
+        GPIO.output(led1, GPIO.HIGH)
+        GPIO.output(led2, GPIO.HIGH)
+
     if menu == "Short":
         GPIO.output(led1, GPIO.HIGH)
         if submenu == "Tx USB":
             set_rgb_color(1, 0, 0)  # Rojo
         elif submenu == "Rx ST":
             set_rgb_color(0, 1, 0)  # Verde
-    elif menu == "Mid":
+        elif submenu == "Back":
+            set_rgb_color(1,1, 0)
+    if menu == "Mid":
         GPIO.output(led2, GPIO.HIGH)
         if submenu == "Tx USB":
-            set_rgb_color(0, 0, 1)  # Azul
+            set_rgb_color(1, 0, 0)  # Rojo
         elif submenu == "Rx ST":
-            set_rgb_color(1, 1, 0)  # Amarillo
-    elif menu == "Network":
+            set_rgb_color(0, 1, 0)  # Verde
+        elif submenu == "Back":
+            set_rgb_color(1,1,1)
+    if menu == "Network":
         GPIO.output(led1, GPIO.HIGH)
         GPIO.output(led2, GPIO.HIGH)
-        if submenu == "Master":
-            set_rgb_color(1, 0, 1)  # Magenta
-        elif submenu == "Slave ST":
-            set_rgb_color(0, 1, 1)  # Cyan
+        if submenu == "Tx USB":
+            set_rgb_color(1, 0, 0)  # Rojo
+        elif submenu == "Rx ST":
+            set_rgb_color(0, 1, 0)  # Verde
+        elif submenu == "Back":
+            set_rgb_color(1,1,1)
 
 class MenuItem:
     def __init__(self, name, action=None, parent=None):
@@ -103,6 +118,7 @@ def navigate_and_select_file(contents):
             return selected_file
 
 def master_file():
+    lcd.show_message_on_lcd(f"Looking for USB")
     path = USB.get_file_usb_lcd()
     contents = USB.list_contents(path)
     selected_file = navigate_and_select_file(contents)
@@ -118,19 +134,25 @@ def slave_file():
     slave(lcd)
 
 def poweroff():
-    os.system("sudo poweroff now")
+    clear_leds()
+    lcd.show_message_on_lcd(f"     (-_-)\n     zzzzz")
+    os.system("sudo poweroff")
+    while True:
+        pass
+
+clear_leds()
 
 main_menu = MenuItem("Main Menu")
 short_range = MenuItem("Short")
 short_range_tx = MenuItem("Tx USB", master_file)
 short_range_rx = MenuItem("Rx ST", slave_file)
 mid_range = MenuItem("Mid")
-mid_range_tx = MenuItem("Tx USB")
-mid_range_rx = MenuItem("Rx ST")
+mid_range_tx = MenuItem("Tx USB", master_file)
+mid_range_rx = MenuItem("Rx ST", slave_file)
 network_mode = MenuItem("Network")
-network_master = MenuItem("Master") 
-network_slave = MenuItem("Slave ST")
-poweroff= MenuItem("Power off", poweroff)
+network_master = MenuItem("Tx USB") 
+network_slave = MenuItem("Rx ST")
+poweroff= MenuItem("Power off",poweroff)
 
 short_range.add_submenu(short_range_tx)
 short_range.add_submenu(short_range_rx)
@@ -161,6 +183,7 @@ def show_current_menu():
 
 try:
     show_current_menu()
+    update_leds(current_menu.name, current_menu.submenus[current_index].name)
     while True:
         if GPIO.input(NAV_BUTTON_PIN) == GPIO.HIGH:
             current_index = (current_index + 1) % len(current_menu.submenus)
@@ -189,3 +212,4 @@ finally:
     lcd.clear()
     clear_leds()
     GPIO.cleanup()
+    GPIO.output(led1, GPIO.LOW)

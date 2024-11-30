@@ -234,6 +234,7 @@ def master(file_buffer, lcd):
     monitor_thread.start()
     global finish_transmission
 
+    # AL PULSAR EL BOTON, PROCEDE A HACER LA TRANSMISION
     while GPIO.input(SELECT_BUTTON_PIN) == GPIO.LOW: 
         pass
 

@@ -132,8 +132,6 @@ def master_file():
         master(file_buffer, lcd)
         
         
-
-
 def slave_file():
     slave(lcd)
 
@@ -146,6 +144,7 @@ def poweroff():
 
 clear_leds()
 
+# Aqui indicas que funcion quieres que llame
 main_menu = MenuItem("Main Menu")
 short_range = MenuItem("Short")
 short_range_tx = MenuItem("Tx USB", master_file)
@@ -157,6 +156,9 @@ network_mode = MenuItem("Network")
 network_master = MenuItem("Tx USB") 
 network_slave = MenuItem("Rx ST")
 poweroff= MenuItem("Power off",poweroff)
+
+
+# Aqui sale cada opcion una vez entra a una de las opciones del menu principal
 
 short_range.add_submenu(short_range_tx)
 short_range.add_submenu(short_range_rx)

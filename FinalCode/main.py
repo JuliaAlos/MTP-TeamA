@@ -5,6 +5,7 @@ import read_USB as USB
 import os
 from Short_range import master, slave
 from Medium_range import master_m, slave_m
+from Network_mode import initialize_transciever
 from lcd_handler import LCDHandler
 import threading
 from multiprocessing import Process, Event, Queue
@@ -118,7 +119,9 @@ def master_file(mode):
     elif mode == 'Mid':
         blink_color = (0, 1, 0)  # Verde
     elif mode == 'Network':
-        blink_color = (0, 0, 1)  # Azul
+        leds.set_rgb_color(0,0,1)
+        initialize_transciever(True, lcd)
+        return
 
     stop_blinking = threading.Event()
     blink_thread = threading.Thread(target=leds.blink_rgb, args=(*blink_color, stop_blinking))
@@ -144,8 +147,6 @@ def master_file(mode):
         elif mode == 'Mid':
             leds.set_rgb_color(0,1,0)
             master_m(file_buffer, lcd)
-        elif mode == 'Network':
-            leds.set_rgb_color(0,0,1)
 
         leds.clear_leds()
     
@@ -153,32 +154,40 @@ def master_file(mode):
 def slave_file(mode):
 
     if mode == 'Short':
-        slave(lcd)
         leds.set_rgb_color(1, 0, 0)
+        slave(lcd)
     elif mode == 'Mid':
-        slave_m(lcd)
         leds.set_rgb_color(0, 1, 0)
+        slave_m(lcd)
     elif mode == 'Network':
         leds.set_rgb_color(0, 0, 1)
+        initialize_transciever(False, lcd)
 
     # Transmisión finalizada
     leds.clear_leds()
 
 
 def poweroff():
-    clear_leds()
+    leds.clear_leds()
     lcd.show_message_on_lcd(f"     (-_-)\n     zzzzz")
     os.system("sudo poweroff")
     while True:
         pass
 
 def save_files_USB():
-    USB.save_file_USB("_MediumRange.txt")
-    USB.save_file_USB("_ShortRange.txt")
-    USB.save_file_USB("_Network.txt")
-    USB.save_file_USB("network.log")
-
-    current_menu = main_menu
+    print("Save files")
+    name = USB.save_file_USB("MTP-F24-SRI-A-RX.txt")
+    lcd.show_message_on_lcd(f"Save Short: \n{name}")
+    print(f"{name}")
+    name = USB.save_file_USB("MTP-F24-MRM-A-RX.txt")
+    lcd.show_message_on_lcd(f"Save Mid: \n{name}")
+    print(f"{name}")
+    name = USB.save_file_USB("MTP-F24-NM-A-RX.txt")
+    lcd.show_message_on_lcd(f"Save Network: \n{name}")
+    print(f"{name}")
+    name = USB.save_file_USB("network.log")
+    lcd.show_message_on_lcd(f"Save Network logs: \n{name}")
+    print(f"{name}")
 
 leds.clear_leds()
 
@@ -195,9 +204,9 @@ network_mode = MenuItem("Network")
 network_master = MenuItem("Net: Start Node", lambda: master_file('Network'))
 network_slave = MenuItem("Net: Intermediate Node", lambda: slave_file('Network'))
 
-poweroff= MenuItem("Power off",poweroff)
+poweroff= MenuItem("Power off", poweroff)
 
-save_files = MenuItem("Save files USB",save_files_USB)
+save_files = MenuItem("Save files USB", save_files_USB)
 
 short_range.add_submenu(short_range_tx)
 short_range.add_submenu(short_range_rx)
@@ -247,6 +256,9 @@ try:
                 current_index = 0
             else:
                 selected_item.execute()
+                if current_menu.parent:
+                    current_menu = current_menu.parent
+                    current_index = 0
 
             show_current_menu()
             time.sleep(1) 

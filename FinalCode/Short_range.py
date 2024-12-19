@@ -256,7 +256,7 @@ def master(file_buffer, lcd):
     if not finish_transmission:
         send_chunck(i)
 
-        while not ping_master(PING_FINISH_TX_ID,0,lcd) and not finish_transmission:
+        while not finish_transmission and not ping_master(PING_FINISH_TX_ID,0,lcd):
             send_chunck(i)
         radio.powerDown()
 
@@ -267,7 +267,7 @@ def master(file_buffer, lcd):
         lcd.show_message_on_lcd(f"Time: {execution_time:.2f}")
         leds.disco_mode()
         time.sleep(10)
-        lcd.show_message_on_lcd(f"(^_^)")
+        lcd.show_message_on_lcd(f"     (^_^)")
 
     else:
         radio.powerDown()
@@ -285,7 +285,7 @@ def slave(lcd):
     global chunk_current_ID
     init_radio(1)
 
-    file_path = "_ShortRange.txt"
+    file_path = "MTP-F24-SRI-A-RX.txt"
 
     if os.path.exists(file_path):
         os.remove(file_path)  # Delete the file
@@ -350,7 +350,10 @@ def slave(lcd):
                         if chunk_ID == PING_FINISH_TX_ID and not error_chunk:# Transmission finished
                             # Respond to the ping
                             lcd.show_message_on_lcd("Finished")
-                            leds.disco_mode()
+                            disco_thread = threading.Thread(target=leds.disco_mode)
+                            disco_thread.daemon = True  # Allow thread to exit when main program exits
+                            disco_thread.start()
+
                             for i in range(5):
                                 radio.stopListening()
                                 radio.writeFast(received)
@@ -365,7 +368,7 @@ def slave(lcd):
                             save_file = save_file_USB(file_path)
                             lcd.show_message_on_lcd(f"File saved to \n{save_file}")
                             time.sleep(5)
-                            lcd.show_message_on_lcd(f"(O_O)")
+                            lcd.show_message_on_lcd(f"     (O_O)")
                             time.sleep(10)
                             radio.stopListening()  # put the radio in TX mode
                             radio.powerDown()
@@ -418,7 +421,7 @@ def slave(lcd):
         save_file = save_file_USB(file_path)
         lcd.show_message_on_lcd(f"File saved to \n{save_file}")
         time.sleep(5)
-        lcd.show_message_on_lcd(f"(O_O)")
+        lcd.show_message_on_lcd(f"     (O_O)")
         time.sleep(10)
 
 # ------------------------------------------

@@ -124,20 +124,17 @@ def save_file_USB(copy_file_path):
             if len(current_drives) == 1:
                 drive = current_drives[0]
                 print(f"USB drive connected: {drive[0]} mounted at {drive[1]}")
-
-                # Get the current date and format it
-                current_date = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
                 # Create a new filename with the current date
                 base_name = os.path.basename(copy_file_path)
-                new_file_name = f"{current_date}_{base_name}"
-                name_file = new_file_name
+                new_file_name = f"{base_name}"
+
+                name_file = ''.join([new_file_name])
                 destination_path = os.path.join(drive[1], new_file_name)
 
-                last_part = os.path.split(destination_path)[1] 
                 # Copy the file to the USB drive
                 shutil.copy2(copy_file_path, destination_path)
-                print(f"File saved {new_file_name}")
-                os.chmod(destination_path, stat.S_IRWXU | stat.S_IRWXG | stat.S_IRWXO)
+                # print(f"File saved {new_file_name}")
+                # os.chmod(destination_path, stat.S_IRWXU | stat.S_IRWXG | stat.S_IRWXO)
                 return name_file
 
     except KeyboardInterrupt:

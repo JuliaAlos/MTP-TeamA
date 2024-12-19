@@ -1,0 +1,18 @@
+{
+    "transciever_id": "A1",
+    "led": {
+        "green": 7,
+        "red": 14,
+        "file": 20
+    },
+    "button": {
+        "start": 24,
+        "stop": 23
+    },
+    "radio": {
+        "ce_pin": 22,
+        "cns_pin": 0,
+        "pa_level": "RF24_PA_HIGH",
+        "data_rate": "RF24_2MBPS"
+    }
+}

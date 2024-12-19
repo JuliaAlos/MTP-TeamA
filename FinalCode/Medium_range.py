@@ -15,14 +15,16 @@ leds = LEDHandler()
 
 PA_LEVEL = RF24_PA_LOW
 DATA_RATE = RF24_2MBPS
-MAX_SIZE = 32
+MAX_SIZE = 20
 BURST_SIZE = 6
-CHANNEL = 0
-TIMEOUT_ACK_LOST = 50 # TODO: Test to ajust the parameter (Master wait the
+CHANNEL = 100
+TIMEOUT_ACK_LOST = 35 # TODO: Test to ajust the parameter (Master wait the
                     # reception of the ACK before retransmission in ms)
-TIMEOUT_PING_LOST = 50 # TODO: In theory has to be smaller than ACK_LOST
+TIMEOUT_PING_LOST = 30 # TODO: In theory has to be smaller than ACK_LOST
 TIMEOUT_ACK = 1 # Puesto totalmente a ojo tiene que ser el tiempo que 
                             # tarda en recivir todo el burst
+
+SPLIT_SIZE = 30 # SPLIT_SIZE*1024, size in bytes of the chunks before compression
 
 radio = None
 
@@ -223,7 +225,7 @@ def master_m(file_buffer, lcd):
     init_radio(0)
     global PACKET_BUFF
 
-    compressed_data, compression = compress_data(file_buffer)
+    compressed_data, compression = compress_data(file_buffer, SPLIT_SIZE, PAYLOAD_SIZE)
     num_packets, chunk_index = build_packets(compressed_data)
     lcd.show_message_on_lcd(f"CP: {compression:.2f} PxC:{num_packets} \nChunks: {chunk_index+1}")
 
@@ -256,7 +258,7 @@ def master_m(file_buffer, lcd):
     if not finish_transmission:
         send_chunck(i)
 
-        while not ping_master(PING_FINISH_TX_ID,0,lcd) and not finish_transmission:
+        while not finish_transmission and not ping_master(PING_FINISH_TX_ID,0,lcd):
             send_chunck(i)
         radio.powerDown()
 
@@ -267,7 +269,7 @@ def master_m(file_buffer, lcd):
         lcd.show_message_on_lcd(f"Time: {execution_time:.2f}")
         leds.disco_mode()
         time.sleep(10)
-        lcd.show_message_on_lcd(f"(^_^)")
+        lcd.show_message_on_lcd(f"     (^_^)")
 
     else:
         radio.powerDown()
@@ -285,7 +287,7 @@ def slave_m(lcd):
     global chunk_current_ID
     init_radio(1)
 
-    file_path = "_MediumRange.txt"
+    file_path = "MTP-F24-MRM-A-RX.txt"
 
     if os.path.exists(file_path):
         os.remove(file_path)  # Delete the file
@@ -350,10 +352,11 @@ def slave_m(lcd):
                         if chunk_ID == PING_FINISH_TX_ID and not error_chunk:# Transmission finished
                             # Respond to the ping
                             lcd.show_message_on_lcd("Finished")
-                            leds.disco_mode()
+                            disco_thread = threading.Thread(target=leds.disco_mode)
+                            disco_thread.daemon = True  # Allow thread to exit when main program exits
+                            disco_thread.start()
                             for i in range(5):
                                 radio.stopListening()
-                                radio.writeFast(received)
                                 radio.writeFast(received)
                                 radio.writeFast(received)
                                 radio.txStandBy(0)
@@ -366,7 +369,7 @@ def slave_m(lcd):
                             save_file = save_file_USB(file_path)
                             lcd.show_message_on_lcd(f"File saved to \n{save_file}")
                             time.sleep(5)
-                            lcd.show_message_on_lcd(f"(O_O)")
+                            lcd.show_message_on_lcd(f"     (O_O)")
                             time.sleep(10)
                             radio.stopListening()  # put the radio in TX mode
                             radio.powerDown()
@@ -374,7 +377,6 @@ def slave_m(lcd):
 
                     # Respond to the ping
                     radio.stopListening()
-                    radio.writeFast(received)
                     radio.writeFast(received)
                     radio.writeFast(received)
                     radio.txStandBy(0)
@@ -393,7 +395,6 @@ def slave_m(lcd):
                     if count_burst == BURST_SIZE or ((time.monotonic() - start_timer)*1000 > TIMEOUT_ACK):
                         # Timeout or all packets received send ACK
                         radio.stopListening()  # put radio in TX mode
-                        radio.writeFast(ack_payload)
                         radio.writeFast(ack_payload)
                         radio.writeFast(ack_payload)
                         radio.txStandBy(0)
@@ -421,7 +422,7 @@ def slave_m(lcd):
         save_file = save_file_USB(file_path)
         lcd.show_message_on_lcd(f"File saved to \n{save_file}")
         time.sleep(5)
-        lcd.show_message_on_lcd(f"(O_O)")
+        lcd.show_message_on_lcd(f"     (O_O)")
         time.sleep(10)
 
 # ------------------------------------------

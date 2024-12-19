@@ -1,0 +1,2331 @@
+2024-12-13 10:12:31,006 - DEBUG - Set up device config
+2024-12-13 10:12:32,575 - INFO - Device A1 waiting to start
+2024-12-13 10:24:36,379 - INFO - Network mode started
+2024-12-13 10:24:36,637 - DEBUG - Start listen channel time: 128
+2024-12-13 10:24:36,796 - DEBUG - Channel free to transmit
+2024-12-13 10:24:36,802 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:36,808 - INFO - Waiting response...
+2024-12-13 10:24:36,812 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:37,175 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:37,809 - DEBUG - Start listen channel time: 128
+2024-12-13 10:24:37,937 - DEBUG - Channel free to transmit
+2024-12-13 10:24:37,937 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:37,938 - INFO - Waiting response...
+2024-12-13 10:24:38,340 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:38,935 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:38,939 - DEBUG - Start listen channel time: 160
+2024-12-13 10:24:39,099 - DEBUG - Channel free to transmit
+2024-12-13 10:24:39,099 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:39,100 - INFO - Waiting response...
+2024-12-13 10:24:39,390 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:39,967 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:40,100 - DEBUG - Start listen channel time: 54
+2024-12-13 10:24:40,155 - DEBUG - Channel free to transmit
+2024-12-13 10:24:40,155 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:40,156 - INFO - Waiting response...
+2024-12-13 10:24:40,420 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:41,124 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:41,156 - DEBUG - Start listen channel time: 38
+2024-12-13 10:24:41,194 - DEBUG - Channel free to transmit
+2024-12-13 10:24:41,195 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:41,196 - INFO - Waiting response...
+2024-12-13 10:24:41,490 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:42,196 - DEBUG - Start listen channel time: 86
+2024-12-13 10:24:42,282 - DEBUG - Channel free to transmit
+2024-12-13 10:24:42,283 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:42,284 - INFO - Waiting response...
+2024-12-13 10:24:42,633 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:43,284 - DEBUG - Start listen channel time: 153
+2024-12-13 10:24:43,437 - DEBUG - Channel free to transmit
+2024-12-13 10:24:43,438 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:43,439 - INFO - Waiting response...
+2024-12-13 10:24:43,702 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:44,424 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:44,439 - DEBUG - Start listen channel time: 88
+2024-12-13 10:24:44,527 - DEBUG - Channel free to transmit
+2024-12-13 10:24:44,528 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:44,528 - INFO - Waiting response...
+2024-12-13 10:24:44,847 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:45,480 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:45,529 - DEBUG - Start listen channel time: 150
+2024-12-13 10:24:45,679 - DEBUG - Channel free to transmit
+2024-12-13 10:24:45,679 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:45,680 - INFO - Waiting response...
+2024-12-13 10:24:45,984 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:46,563 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:46,680 - DEBUG - Start listen channel time: 138
+2024-12-13 10:24:46,819 - DEBUG - Channel free to transmit
+2024-12-13 10:24:46,819 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:46,820 - INFO - Waiting response...
+2024-12-13 10:24:47,000 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:47,664 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:47,820 - DEBUG - Start listen channel time: 16
+2024-12-13 10:24:47,836 - DEBUG - Channel free to transmit
+2024-12-13 10:24:47,837 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:47,838 - INFO - Waiting response...
+2024-12-13 10:24:48,066 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:48,710 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:48,838 - DEBUG - Start listen channel time: 26
+2024-12-13 10:24:48,864 - DEBUG - Channel free to transmit
+2024-12-13 10:24:48,865 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:48,865 - INFO - Waiting response...
+2024-12-13 10:24:49,103 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:49,749 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:49,866 - DEBUG - Start listen channel time: 134
+2024-12-13 10:24:50,000 - DEBUG - Channel free to transmit
+2024-12-13 10:24:50,000 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:50,001 - INFO - Waiting response...
+2024-12-13 10:24:50,269 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:50,755 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:51,001 - DEBUG - Start listen channel time: 109
+2024-12-13 10:24:51,111 - DEBUG - Channel free to transmit
+2024-12-13 10:24:51,111 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:51,112 - INFO - Waiting response...
+2024-12-13 10:24:51,397 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:51,867 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:52,112 - DEBUG - Start listen channel time: 48
+2024-12-13 10:24:52,161 - DEBUG - Channel free to transmit
+2024-12-13 10:24:52,161 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:52,162 - INFO - Waiting response...
+2024-12-13 10:24:52,531 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:52,899 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:53,162 - DEBUG - Start listen channel time: 102
+2024-12-13 10:24:53,265 - DEBUG - Channel free to transmit
+2024-12-13 10:24:53,265 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:53,266 - INFO - Waiting response...
+2024-12-13 10:24:53,652 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:53,994 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:54,266 - DEBUG - Start listen channel time: 121
+2024-12-13 10:24:54,387 - DEBUG - Channel free to transmit
+2024-12-13 10:24:54,388 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:54,389 - INFO - Waiting response...
+2024-12-13 10:24:54,787 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:55,039 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:55,389 - DEBUG - Start listen channel time: 70
+2024-12-13 10:24:55,459 - DEBUG - Channel free to transmit
+2024-12-13 10:24:55,460 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:55,460 - INFO - Waiting response...
+2024-12-13 10:24:55,862 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:56,103 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:56,461 - DEBUG - Start listen channel time: 13
+2024-12-13 10:24:56,474 - DEBUG - Channel free to transmit
+2024-12-13 10:24:56,474 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:56,475 - INFO - Waiting response...
+2024-12-13 10:24:56,970 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:57,194 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:57,475 - DEBUG - Start listen channel time: 152
+2024-12-13 10:24:57,628 - DEBUG - Channel free to transmit
+2024-12-13 10:24:57,628 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:57,629 - INFO - Waiting response...
+2024-12-13 10:24:57,997 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:58,349 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:58,629 - DEBUG - Start listen channel time: 32
+2024-12-13 10:24:58,662 - DEBUG - Channel free to transmit
+2024-12-13 10:24:58,662 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:58,663 - INFO - Waiting response...
+2024-12-13 10:24:59,079 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:24:59,504 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:24:59,663 - DEBUG - Start listen channel time: 1
+2024-12-13 10:24:59,664 - DEBUG - Channel free to transmit
+2024-12-13 10:24:59,665 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:24:59,665 - INFO - Waiting response...
+2024-12-13 10:25:00,176 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:00,529 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:00,666 - DEBUG - Start listen channel time: 29
+2024-12-13 10:25:00,695 - DEBUG - Channel free to transmit
+2024-12-13 10:25:00,695 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:00,696 - INFO - Waiting response...
+2024-12-13 10:25:01,283 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:01,549 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:01,696 - DEBUG - Start listen channel time: 101
+2024-12-13 10:25:01,798 - DEBUG - Channel free to transmit
+2024-12-13 10:25:01,798 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:01,799 - INFO - Waiting response...
+2024-12-13 10:25:02,329 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:02,595 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:02,799 - DEBUG - Start listen channel time: 58
+2024-12-13 10:25:02,857 - DEBUG - Channel free to transmit
+2024-12-13 10:25:02,858 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:02,859 - INFO - Waiting response...
+2024-12-13 10:25:03,479 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:03,746 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:03,859 - DEBUG - Start listen channel time: 22
+2024-12-13 10:25:03,881 - DEBUG - Channel free to transmit
+2024-12-13 10:25:03,881 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:03,882 - INFO - Waiting response...
+2024-12-13 10:25:04,585 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:04,862 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:04,882 - DEBUG - Start listen channel time: 18
+2024-12-13 10:25:04,901 - DEBUG - Channel free to transmit
+2024-12-13 10:25:04,901 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:04,902 - INFO - Waiting response...
+2024-12-13 10:25:05,649 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:05,902 - DEBUG - Start listen channel time: 71
+2024-12-13 10:25:05,973 - DEBUG - Channel free to transmit
+2024-12-13 10:25:05,974 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:05,974 - INFO - Waiting response...
+2024-12-13 10:25:05,975 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:06,674 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:06,975 - DEBUG - Start listen channel time: 128
+2024-12-13 10:25:07,103 - DEBUG - Channel free to transmit
+2024-12-13 10:25:07,103 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:07,104 - INFO - Waiting response...
+2024-12-13 10:25:07,762 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:08,105 - DEBUG - Start listen channel time: 134
+2024-12-13 10:25:08,239 - DEBUG - Channel free to transmit
+2024-12-13 10:25:08,239 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:08,243 - INFO - Waiting response...
+2024-12-13 10:25:08,869 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:09,244 - DEBUG - Start listen channel time: 160
+2024-12-13 10:25:09,404 - DEBUG - Channel free to transmit
+2024-12-13 10:25:09,404 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:09,405 - INFO - Waiting response...
+2024-12-13 10:25:09,964 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:10,391 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:10,405 - DEBUG - Start listen channel time: 28
+2024-12-13 10:25:10,434 - DEBUG - Channel free to transmit
+2024-12-13 10:25:10,434 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:10,435 - INFO - Waiting response...
+2024-12-13 10:25:11,111 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:11,435 - DEBUG - Start listen channel time: 154
+2024-12-13 10:25:11,589 - DEBUG - Channel free to transmit
+2024-12-13 10:25:11,590 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:11,591 - INFO - Waiting response...
+2024-12-13 10:25:11,643 - DEBUG - Received packet: 1 1 1 1 1 0 0 1 1 0 0 0 1 0 0 1
+2024-12-13 10:25:11,644 - INFO - Received RTS from 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2024-12-13 10:25:11,644 - INFO - CTS packet 1 0 1 0 1 0 0 1 1 0 0 0 1 0 0 1
+2024-12-13 10:25:11,644 - INFO - Send CTS
+2024-12-13 10:25:11,645 - INFO - Switch to dedicated channel 91
+2024-12-13 10:25:11,647 - INFO - *************************************
+2024-12-13 10:25:11,648 - INFO - Receiving file...
+2024-12-13 10:25:11,648 - INFO - My 8, dest 9, channel 91
+2024-12-13 10:25:11,649 - INFO - *************************************
+2024-12-13 10:25:12,772 - WARNING - Device added in BLACKLIST: 9
+2024-12-13 10:25:12,778 - CRITICAL - Failed receiving file
+2024-12-13 10:25:12,778 - CRITICAL - Hash b'\xd4\x1d\x8c\xd9\x8f\x00\xb2\x04\xe9\x80\t\x98\xec\xf8B~', expected None
+2024-12-13 10:25:12,778 - INFO - *************************************
+2024-12-13 10:25:12,830 - DEBUG - Start listen channel time: 39
+2024-12-13 10:25:12,869 - DEBUG - Channel free to transmit
+2024-12-13 10:25:12,870 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:12,870 - INFO - Waiting response...
+2024-12-13 10:25:13,325 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:13,673 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:13,871 - INFO - CTS packet 1 0 1 0 1 0 0 1 1 0 0 0 1 0 0 1
+2024-12-13 10:25:13,871 - INFO - Send CTS
+2024-12-13 10:25:13,872 - INFO - Switch to dedicated channel 91
+2024-12-13 10:25:13,872 - INFO - *************************************
+2024-12-13 10:25:13,872 - INFO - Receiving file...
+2024-12-13 10:25:13,872 - INFO - My 8, dest 9, channel 91
+2024-12-13 10:25:13,873 - INFO - *************************************
+2024-12-13 10:25:14,923 - WARNING - Device added in BLACKLIST: 9
+2024-12-13 10:25:14,924 - CRITICAL - Failed receiving file
+2024-12-13 10:25:14,924 - CRITICAL - Hash b'\xd4\x1d\x8c\xd9\x8f\x00\xb2\x04\xe9\x80\t\x98\xec\xf8B~', expected None
+2024-12-13 10:25:14,924 - INFO - *************************************
+2024-12-13 10:25:14,975 - DEBUG - Start listen channel time: 149
+2024-12-13 10:25:15,124 - DEBUG - Channel free to transmit
+2024-12-13 10:25:15,125 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:15,125 - INFO - Waiting response...
+2024-12-13 10:25:15,416 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:15,742 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:16,126 - INFO - CTS packet 1 0 1 0 1 0 0 1 1 0 0 0 1 0 0 1
+2024-12-13 10:25:16,126 - INFO - Send CTS
+2024-12-13 10:25:16,127 - INFO - Switch to dedicated channel 91
+2024-12-13 10:25:16,127 - INFO - *************************************
+2024-12-13 10:25:16,128 - INFO - Receiving file...
+2024-12-13 10:25:16,128 - INFO - My 8, dest 9, channel 91
+2024-12-13 10:25:16,128 - INFO - *************************************
+2024-12-13 10:25:17,179 - WARNING - Device added in BLACKLIST: 9
+2024-12-13 10:25:17,179 - CRITICAL - Failed receiving file
+2024-12-13 10:25:17,179 - CRITICAL - Hash b'\xd4\x1d\x8c\xd9\x8f\x00\xb2\x04\xe9\x80\t\x98\xec\xf8B~', expected None
+2024-12-13 10:25:17,180 - INFO - *************************************
+2024-12-13 10:25:17,230 - DEBUG - Start listen channel time: 121
+2024-12-13 10:25:17,352 - DEBUG - Channel free to transmit
+2024-12-13 10:25:17,352 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:17,353 - INFO - Waiting response...
+2024-12-13 10:25:17,631 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:17,658 - DEBUG - Received packet: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:25:17,867 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:18,353 - INFO - CTS packet 1 0 1 0 1 0 0 1 1 0 0 0 1 0 0 1
+2024-12-13 10:25:18,354 - INFO - Send CTS
+2024-12-13 10:25:18,354 - INFO - Switch to dedicated channel 91
+2024-12-13 10:25:18,355 - INFO - *************************************
+2024-12-13 10:25:18,355 - INFO - Receiving file...
+2024-12-13 10:25:18,355 - INFO - My 8, dest 9, channel 91
+2024-12-13 10:25:18,355 - INFO - *************************************
+2024-12-13 10:25:19,406 - WARNING - Device added in BLACKLIST: 9
+2024-12-13 10:25:19,406 - CRITICAL - Failed receiving file
+2024-12-13 10:25:19,407 - CRITICAL - Hash b'\xd4\x1d\x8c\xd9\x8f\x00\xb2\x04\xe9\x80\t\x98\xec\xf8B~', expected None
+2024-12-13 10:25:19,407 - INFO - *************************************
+2024-12-13 10:25:19,457 - DEBUG - Start listen channel time: 137
+2024-12-13 10:25:19,595 - DEBUG - Channel free to transmit
+2024-12-13 10:25:19,595 - INFO - SEND RF 0 0 0 0 1 0 0 0
+2024-12-13 10:25:19,596 - INFO - Waiting response...
+2024-12-13 10:25:19,607 - DEBUG - Received packet: 1 1 1 1 1 0 0 1 1 0 0 0 1 0 0 1
+2024-12-13 10:25:19,608 - INFO - Received RTS from 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2024-12-13 10:25:19,608 - WARNING - Device found in BLACKLIST: 9
+2024-12-13 10:25:19,802 - DEBUG - Received packet: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:20,114 - DEBUG - Received packet: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:20,596 - INFO - CTS packet 1 0 1 0 1 0 0 1 1 0 0 0 1 0 0 1
+2024-12-13 10:25:20,597 - INFO - Send CTS
+2024-12-13 10:25:20,598 - INFO - Switch to dedicated channel 91
+2024-12-13 10:25:20,598 - INFO - *************************************
+2024-12-13 10:25:20,598 - INFO - Receiving file...
+2024-12-13 10:25:20,598 - INFO - My 8, dest 9, channel 91
+2024-12-13 10:25:20,600 - INFO - *************************************
+2024-12-13 10:25:20,765 - DEBUG - CONTROL PACKET RECEIVED, total packets 33, hash b'f\x8e*\xe3\xf0\xe5\xf9\xb4\xf3\x80O`\xab\xd2\x8a\x80'
+2024-12-13 10:25:20,766 - DEBUG - PACKET RECEIVED: 1
+2024-12-13 10:25:20,770 - DEBUG - PACKET RECEIVED: 2
+2024-12-13 10:25:20,773 - DEBUG - PACKET RECEIVED: 3
+2024-12-13 10:25:20,774 - DEBUG - PACKET RECEIVED: 4
+2024-12-13 10:25:20,776 - DEBUG - PACKET RECEIVED: 5
+2024-12-13 10:25:20,777 - DEBUG - PACKET RECEIVED: 6
+2024-12-13 10:25:20,779 - DEBUG - PACKET RECEIVED: 7
+2024-12-13 10:25:20,780 - DEBUG - PACKET RECEIVED: 8
+2024-12-13 10:25:20,783 - DEBUG - PACKET RECEIVED: 9
+2024-12-13 10:25:20,787 - DEBUG - PACKET RECEIVED: 10
+2024-12-13 10:25:20,791 - DEBUG - PACKET RECEIVED: 11
+2024-12-13 10:25:20,792 - DEBUG - PACKET RECEIVED: 12
+2024-12-13 10:25:20,795 - DEBUG - PACKET RECEIVED: 13
+2024-12-13 10:25:20,798 - DEBUG - PACKET RECEIVED: 14
+2024-12-13 10:25:20,800 - DEBUG - PACKET RECEIVED: 15
+2024-12-13 10:25:20,807 - DEBUG - PACKET RECEIVED: 16
+2024-12-13 10:25:20,808 - DEBUG - PACKET RECEIVED: 17
+2024-12-13 10:25:20,810 - DEBUG - PACKET RECEIVED: 18
+2024-12-13 10:25:20,813 - DEBUG - PACKET RECEIVED: 19
+2024-12-13 10:25:20,817 - DEBUG - PACKET RECEIVED: 20
+2024-12-13 10:25:20,821 - DEBUG - PACKET RECEIVED: 21
+2024-12-13 10:25:20,828 - DEBUG - PACKET RECEIVED: 22
+2024-12-13 10:25:20,838 - DEBUG - PACKET RECEIVED: 23
+2024-12-13 10:25:20,848 - DEBUG - PACKET RECEIVED: 24
+2024-12-13 10:25:20,854 - DEBUG - PACKET RECEIVED: 25
+2024-12-13 10:25:20,863 - DEBUG - PACKET RECEIVED: 26
+2024-12-13 10:25:20,869 - DEBUG - PACKET RECEIVED: 27
+2024-12-13 10:25:20,876 - DEBUG - PACKET RECEIVED: 28
+2024-12-13 10:25:20,884 - DEBUG - PACKET RECEIVED: 29
+2024-12-13 10:25:20,892 - DEBUG - PACKET RECEIVED: 30
+2024-12-13 10:25:20,903 - DEBUG - PACKET RECEIVED: 31
+2024-12-13 10:25:20,916 - DEBUG - PACKET RECEIVED: 32
+2024-12-13 10:25:20,916 - INFO - File received successfully
+2024-12-13 10:25:20,916 - INFO - *************************************
+2024-12-13 10:25:21,053 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:21,126 - DEBUG - Message recieved: 0 0 0 0 0 0 1 0
+2024-12-13 10:25:21,127 - INFO - FR received
+2024-12-13 10:25:21,128 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 0 1 0 0 0
+2024-12-13 10:25:21,129 - DEBUG - Start listen channel time: 37
+2024-12-13 10:25:21,166 - DEBUG - Channel free to transmit
+2024-12-13 10:25:21,166 - INFO - Send RTS
+2024-12-13 10:25:21,169 - DEBUG - Message recieved: 1 0 1 0 1 0 0 0 0 0 1 0 1 0 0 0
+2024-12-13 10:25:21,170 - DEBUG - CTS recieved
+2024-12-13 10:25:21,171 - INFO - Switch to dedicated channel 96
+2024-12-13 10:25:21,172 - INFO - *************************************
+2024-12-13 10:25:21,172 - INFO - Sending file...
+2024-12-13 10:25:21,172 - INFO - My 8, dest 2, channel 96
+2024-12-13 10:25:21,172 - INFO - *************************************
+2024-12-13 10:25:21,323 - DEBUG - Send packet 0
+2024-12-13 10:25:21,324 - DEBUG - Packet 0 received
+2024-12-13 10:25:21,324 - DEBUG - Send packet 1
+2024-12-13 10:25:21,337 - DEBUG - Packet 1 received
+2024-12-13 10:25:21,337 - DEBUG - Send packet 2
+2024-12-13 10:25:21,339 - DEBUG - Packet 2 received
+2024-12-13 10:25:21,339 - DEBUG - Send packet 3
+2024-12-13 10:25:21,340 - DEBUG - Packet 3 received
+2024-12-13 10:25:21,340 - DEBUG - Send packet 4
+2024-12-13 10:25:21,345 - DEBUG - Packet 4 received
+2024-12-13 10:25:21,345 - DEBUG - Send packet 5
+2024-12-13 10:25:21,346 - DEBUG - Packet 5 received
+2024-12-13 10:25:21,346 - DEBUG - Send packet 6
+2024-12-13 10:25:21,350 - DEBUG - Packet 6 received
+2024-12-13 10:25:21,350 - DEBUG - Send packet 7
+2024-12-13 10:25:21,353 - DEBUG - Packet 7 received
+2024-12-13 10:25:21,353 - DEBUG - Send packet 8
+2024-12-13 10:25:21,358 - DEBUG - Packet 8 received
+2024-12-13 10:25:21,359 - DEBUG - Send packet 9
+2024-12-13 10:25:21,360 - DEBUG - Packet 9 received
+2024-12-13 10:25:21,360 - DEBUG - Send packet 10
+2024-12-13 10:25:21,361 - DEBUG - Packet 10 received
+2024-12-13 10:25:21,361 - DEBUG - Send packet 11
+2024-12-13 10:25:21,370 - DEBUG - Packet 11 received
+2024-12-13 10:25:21,370 - DEBUG - Send packet 12
+2024-12-13 10:25:21,375 - DEBUG - Packet 12 received
+2024-12-13 10:25:21,375 - DEBUG - Send packet 13
+2024-12-13 10:25:21,378 - DEBUG - Packet 13 received
+2024-12-13 10:25:21,378 - DEBUG - Send packet 14
+2024-12-13 10:25:21,385 - DEBUG - Packet 14 received
+2024-12-13 10:25:21,385 - DEBUG - Send packet 15
+2024-12-13 10:25:21,388 - DEBUG - Packet 15 received
+2024-12-13 10:25:21,389 - DEBUG - Send packet 16
+2024-12-13 10:25:21,399 - DEBUG - Packet 16 received
+2024-12-13 10:25:21,399 - DEBUG - Send packet 17
+2024-12-13 10:25:21,418 - DEBUG - Packet 17 received
+2024-12-13 10:25:21,419 - DEBUG - Send packet 18
+2024-12-13 10:25:21,428 - DEBUG - Packet 18 received
+2024-12-13 10:25:21,429 - DEBUG - Send packet 19
+2024-12-13 10:25:21,435 - DEBUG - Packet 19 received
+2024-12-13 10:25:21,435 - DEBUG - Send packet 20
+2024-12-13 10:25:21,441 - DEBUG - Packet 20 received
+2024-12-13 10:25:21,441 - DEBUG - Send packet 21
+2024-12-13 10:25:21,453 - DEBUG - Packet 21 received
+2024-12-13 10:25:21,453 - DEBUG - Send packet 22
+2024-12-13 10:25:21,462 - DEBUG - Packet 22 received
+2024-12-13 10:25:21,462 - DEBUG - Send packet 23
+2024-12-13 10:25:21,471 - DEBUG - Packet 23 received
+2024-12-13 10:25:21,471 - DEBUG - Send packet 24
+2024-12-13 10:25:21,484 - DEBUG - Packet 24 received
+2024-12-13 10:25:21,484 - DEBUG - Send packet 25
+2024-12-13 10:25:21,489 - DEBUG - Packet 25 received
+2024-12-13 10:25:21,489 - DEBUG - Send packet 26
+2024-12-13 10:25:21,495 - DEBUG - Packet 26 received
+2024-12-13 10:25:21,495 - DEBUG - Send packet 27
+2024-12-13 10:25:21,507 - DEBUG - Packet 27 received
+2024-12-13 10:25:21,507 - DEBUG - Send packet 28
+2024-12-13 10:25:21,517 - DEBUG - Packet 28 received
+2024-12-13 10:25:21,517 - DEBUG - Send packet 29
+2024-12-13 10:25:21,523 - DEBUG - Packet 29 received
+2024-12-13 10:25:21,523 - DEBUG - Send packet 30
+2024-12-13 10:25:21,540 - DEBUG - Packet 30 received
+2024-12-13 10:25:21,541 - DEBUG - Send packet 31
+2024-12-13 10:25:21,547 - DEBUG - Packet 31 received
+2024-12-13 10:25:21,547 - DEBUG - Send packet 32
+2024-12-13 10:25:22,007 - ERROR - Maximum number retransmission link broked
+2024-12-13 10:25:22,007 - INFO - Transmission end
+2024-12-13 10:25:22,007 - INFO - *************************************
+2024-12-13 10:25:22,058 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:23,152 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:23,152 - INFO - FR received
+2024-12-13 10:25:23,153 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:23,153 - DEBUG - Start listen channel time: 24
+2024-12-13 10:25:23,177 - DEBUG - Channel free to transmit
+2024-12-13 10:25:23,177 - INFO - Send RTS
+2024-12-13 10:25:24,180 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:24,180 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:24,310 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:24,310 - INFO - FR received
+2024-12-13 10:25:24,311 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:24,311 - DEBUG - Start listen channel time: 30
+2024-12-13 10:25:24,341 - DEBUG - Channel free to transmit
+2024-12-13 10:25:24,341 - INFO - Send RTS
+2024-12-13 10:25:25,342 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:25,343 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:25,357 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:25,357 - INFO - FR received
+2024-12-13 10:25:25,358 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:25,358 - DEBUG - Start listen channel time: 45
+2024-12-13 10:25:25,403 - DEBUG - Channel free to transmit
+2024-12-13 10:25:25,403 - INFO - Send RTS
+2024-12-13 10:25:26,364 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:26,405 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:26,405 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:27,507 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:27,508 - INFO - FR received
+2024-12-13 10:25:27,508 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:27,508 - DEBUG - Start listen channel time: 31
+2024-12-13 10:25:27,539 - DEBUG - Channel free to transmit
+2024-12-13 10:25:27,540 - INFO - Send RTS
+2024-12-13 10:25:28,541 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:28,541 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:28,635 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:28,635 - INFO - FR received
+2024-12-13 10:25:28,636 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:28,636 - DEBUG - Start listen channel time: 10
+2024-12-13 10:25:28,646 - DEBUG - Channel free to transmit
+2024-12-13 10:25:28,646 - INFO - Send RTS
+2024-12-13 10:25:28,690 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:25:29,642 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:29,647 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:29,648 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:30,690 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:30,691 - INFO - FR received
+2024-12-13 10:25:30,695 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:30,695 - DEBUG - Start listen channel time: 2
+2024-12-13 10:25:30,698 - DEBUG - Channel free to transmit
+2024-12-13 10:25:30,698 - INFO - Send RTS
+2024-12-13 10:25:30,717 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:25:31,699 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:31,700 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:31,752 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:31,752 - INFO - FR received
+2024-12-13 10:25:31,752 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:31,753 - DEBUG - Start listen channel time: 34
+2024-12-13 10:25:31,787 - DEBUG - Channel free to transmit
+2024-12-13 10:25:31,787 - INFO - Send RTS
+2024-12-13 10:25:32,788 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:32,789 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:32,828 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:32,828 - INFO - FR received
+2024-12-13 10:25:32,828 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:32,829 - DEBUG - Start listen channel time: 25
+2024-12-13 10:25:32,854 - DEBUG - Channel free to transmit
+2024-12-13 10:25:32,854 - INFO - Send RTS
+2024-12-13 10:25:33,855 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:33,856 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:33,904 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:33,905 - INFO - FR received
+2024-12-13 10:25:33,905 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:33,905 - DEBUG - Start listen channel time: 2
+2024-12-13 10:25:33,907 - DEBUG - Channel free to transmit
+2024-12-13 10:25:33,907 - INFO - Send RTS
+2024-12-13 10:25:34,909 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:34,909 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:34,971 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:34,972 - INFO - FR received
+2024-12-13 10:25:34,972 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:34,972 - DEBUG - Start listen channel time: 9
+2024-12-13 10:25:34,981 - DEBUG - Channel free to transmit
+2024-12-13 10:25:34,982 - INFO - Send RTS
+2024-12-13 10:25:35,983 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:35,983 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:36,107 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:36,108 - INFO - FR received
+2024-12-13 10:25:36,108 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:36,108 - DEBUG - Start listen channel time: 22
+2024-12-13 10:25:36,130 - DEBUG - Channel free to transmit
+2024-12-13 10:25:36,130 - INFO - Send RTS
+2024-12-13 10:25:37,132 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:37,132 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:37,193 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:37,194 - INFO - FR received
+2024-12-13 10:25:37,194 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:37,194 - DEBUG - Start listen channel time: 33
+2024-12-13 10:25:37,227 - DEBUG - Channel free to transmit
+2024-12-13 10:25:37,227 - INFO - Send RTS
+2024-12-13 10:25:38,230 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:38,230 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:38,351 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:38,351 - INFO - FR received
+2024-12-13 10:25:38,353 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:38,353 - DEBUG - Start listen channel time: 18
+2024-12-13 10:25:38,371 - DEBUG - Channel free to transmit
+2024-12-13 10:25:38,371 - INFO - Send RTS
+2024-12-13 10:25:39,373 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:39,373 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:39,421 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:39,421 - INFO - FR received
+2024-12-13 10:25:39,422 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:39,422 - DEBUG - Start listen channel time: 29
+2024-12-13 10:25:39,451 - DEBUG - Channel free to transmit
+2024-12-13 10:25:39,451 - INFO - Send RTS
+2024-12-13 10:25:40,452 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:40,453 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:40,506 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:40,506 - INFO - FR received
+2024-12-13 10:25:40,506 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:40,507 - DEBUG - Start listen channel time: 7
+2024-12-13 10:25:40,514 - DEBUG - Channel free to transmit
+2024-12-13 10:25:40,514 - INFO - Send RTS
+2024-12-13 10:25:41,515 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:41,516 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:41,519 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:41,519 - INFO - FR received
+2024-12-13 10:25:41,520 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:41,520 - DEBUG - Start listen channel time: 6
+2024-12-13 10:25:41,526 - DEBUG - Channel free to transmit
+2024-12-13 10:25:41,526 - INFO - Send RTS
+2024-12-13 10:25:41,552 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:25:42,527 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:42,528 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:42,677 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:42,677 - INFO - FR received
+2024-12-13 10:25:42,677 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:42,677 - DEBUG - Start listen channel time: 35
+2024-12-13 10:25:42,713 - DEBUG - Channel free to transmit
+2024-12-13 10:25:42,713 - INFO - Send RTS
+2024-12-13 10:25:43,714 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:43,715 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:43,782 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:43,782 - INFO - FR received
+2024-12-13 10:25:43,783 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:43,783 - DEBUG - Start listen channel time: 17
+2024-12-13 10:25:43,800 - DEBUG - Channel free to transmit
+2024-12-13 10:25:43,800 - INFO - Send RTS
+2024-12-13 10:25:44,802 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:44,802 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:44,889 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:44,889 - INFO - FR received
+2024-12-13 10:25:44,889 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:44,889 - DEBUG - Start listen channel time: 21
+2024-12-13 10:25:44,911 - DEBUG - Channel free to transmit
+2024-12-13 10:25:44,911 - INFO - Send RTS
+2024-12-13 10:25:45,912 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:45,913 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:45,988 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:45,988 - INFO - FR received
+2024-12-13 10:25:45,988 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:45,989 - DEBUG - Start listen channel time: 50
+2024-12-13 10:25:46,039 - DEBUG - Channel free to transmit
+2024-12-13 10:25:46,039 - INFO - Send RTS
+2024-12-13 10:25:47,040 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:47,041 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:47,145 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:47,146 - INFO - FR received
+2024-12-13 10:25:47,146 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:47,146 - DEBUG - Start listen channel time: 31
+2024-12-13 10:25:47,178 - DEBUG - Channel free to transmit
+2024-12-13 10:25:47,178 - INFO - Send RTS
+2024-12-13 10:25:48,179 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:48,180 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:48,271 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:48,271 - INFO - FR received
+2024-12-13 10:25:48,271 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:48,271 - DEBUG - Start listen channel time: 11
+2024-12-13 10:25:48,283 - DEBUG - Channel free to transmit
+2024-12-13 10:25:48,283 - INFO - Send RTS
+2024-12-13 10:25:49,284 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:49,284 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:49,298 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:49,298 - INFO - FR received
+2024-12-13 10:25:49,298 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:49,299 - DEBUG - Start listen channel time: 46
+2024-12-13 10:25:49,345 - DEBUG - Channel free to transmit
+2024-12-13 10:25:49,345 - INFO - Send RTS
+2024-12-13 10:25:50,346 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:50,347 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:50,381 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:50,382 - INFO - FR received
+2024-12-13 10:25:50,382 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:50,382 - DEBUG - Start listen channel time: 50
+2024-12-13 10:25:50,432 - DEBUG - Channel free to transmit
+2024-12-13 10:25:50,433 - INFO - Send RTS
+2024-12-13 10:25:51,434 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:51,434 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:51,492 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:51,492 - INFO - FR received
+2024-12-13 10:25:51,492 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:51,492 - DEBUG - Start listen channel time: 31
+2024-12-13 10:25:51,523 - DEBUG - Channel free to transmit
+2024-12-13 10:25:51,524 - INFO - Send RTS
+2024-12-13 10:25:52,525 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:52,526 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:52,635 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:52,636 - INFO - FR received
+2024-12-13 10:25:52,636 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:52,636 - DEBUG - Start listen channel time: 29
+2024-12-13 10:25:52,665 - DEBUG - Channel free to transmit
+2024-12-13 10:25:52,666 - INFO - Send RTS
+2024-12-13 10:25:53,667 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:53,667 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:53,752 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:53,752 - INFO - FR received
+2024-12-13 10:25:53,753 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:53,753 - DEBUG - Start listen channel time: 27
+2024-12-13 10:25:53,780 - DEBUG - Channel free to transmit
+2024-12-13 10:25:53,780 - INFO - Send RTS
+2024-12-13 10:25:53,796 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:25:54,782 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:54,782 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:54,891 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:54,891 - INFO - FR received
+2024-12-13 10:25:54,891 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:54,892 - DEBUG - Start listen channel time: 33
+2024-12-13 10:25:54,925 - DEBUG - Channel free to transmit
+2024-12-13 10:25:54,925 - INFO - Send RTS
+2024-12-13 10:25:55,926 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:55,927 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:55,955 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:55,955 - INFO - FR received
+2024-12-13 10:25:55,956 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:55,956 - DEBUG - Start listen channel time: 20
+2024-12-13 10:25:55,976 - DEBUG - Channel free to transmit
+2024-12-13 10:25:55,977 - INFO - Send RTS
+2024-12-13 10:25:56,978 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:56,978 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:57,102 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:57,103 - INFO - FR received
+2024-12-13 10:25:57,103 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:57,103 - DEBUG - Start listen channel time: 12
+2024-12-13 10:25:57,115 - DEBUG - Channel free to transmit
+2024-12-13 10:25:57,115 - INFO - Send RTS
+2024-12-13 10:25:58,117 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:58,117 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:58,172 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:58,172 - INFO - FR received
+2024-12-13 10:25:58,173 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:58,173 - DEBUG - Start listen channel time: 41
+2024-12-13 10:25:58,214 - DEBUG - Channel free to transmit
+2024-12-13 10:25:58,214 - INFO - Send RTS
+2024-12-13 10:25:58,226 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:25:59,215 - WARNING - Node has not replay the RTS
+2024-12-13 10:25:59,216 - DEBUG - Listening Discovery channel...
+2024-12-13 10:25:59,296 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:25:59,296 - INFO - FR received
+2024-12-13 10:25:59,296 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:25:59,297 - DEBUG - Start listen channel time: 3
+2024-12-13 10:25:59,300 - DEBUG - Channel free to transmit
+2024-12-13 10:25:59,300 - INFO - Send RTS
+2024-12-13 10:25:59,309 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:26:00,301 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:00,302 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:00,354 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:00,355 - INFO - FR received
+2024-12-13 10:26:00,355 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:00,355 - DEBUG - Start listen channel time: 42
+2024-12-13 10:26:00,397 - DEBUG - Channel free to transmit
+2024-12-13 10:26:00,397 - INFO - Send RTS
+2024-12-13 10:26:01,399 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:01,399 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:01,428 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:01,429 - INFO - FR received
+2024-12-13 10:26:01,429 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:01,429 - DEBUG - Start listen channel time: 45
+2024-12-13 10:26:01,474 - DEBUG - Channel free to transmit
+2024-12-13 10:26:01,474 - INFO - Send RTS
+2024-12-13 10:26:02,476 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:02,476 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:02,566 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:02,567 - INFO - FR received
+2024-12-13 10:26:02,567 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:02,567 - DEBUG - Start listen channel time: 38
+2024-12-13 10:26:02,605 - DEBUG - Channel free to transmit
+2024-12-13 10:26:02,606 - INFO - Send RTS
+2024-12-13 10:26:03,607 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:03,607 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:03,733 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:03,733 - INFO - FR received
+2024-12-13 10:26:03,733 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:03,734 - DEBUG - Start listen channel time: 16
+2024-12-13 10:26:03,750 - DEBUG - Channel free to transmit
+2024-12-13 10:26:03,750 - INFO - Send RTS
+2024-12-13 10:26:04,751 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:04,752 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:04,779 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:04,780 - INFO - FR received
+2024-12-13 10:26:04,780 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:04,780 - DEBUG - Start listen channel time: 55
+2024-12-13 10:26:04,835 - DEBUG - Channel free to transmit
+2024-12-13 10:26:04,835 - INFO - Send RTS
+2024-12-13 10:26:05,837 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:05,837 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:05,900 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:05,900 - INFO - FR received
+2024-12-13 10:26:05,900 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:05,901 - DEBUG - Start listen channel time: 49
+2024-12-13 10:26:05,950 - DEBUG - Channel free to transmit
+2024-12-13 10:26:05,950 - INFO - Send RTS
+2024-12-13 10:26:06,951 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:06,952 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:07,045 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:07,045 - INFO - FR received
+2024-12-13 10:26:07,045 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:07,045 - DEBUG - Start listen channel time: 12
+2024-12-13 10:26:07,058 - DEBUG - Channel free to transmit
+2024-12-13 10:26:07,058 - INFO - Send RTS
+2024-12-13 10:26:08,059 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:08,060 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:09,216 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:09,225 - INFO - FR received
+2024-12-13 10:26:09,225 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:09,225 - DEBUG - Start listen channel time: 23
+2024-12-13 10:26:09,248 - DEBUG - Channel free to transmit
+2024-12-13 10:26:09,249 - INFO - Send RTS
+2024-12-13 10:26:10,250 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:10,250 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:10,251 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:10,252 - INFO - FR received
+2024-12-13 10:26:10,252 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:10,252 - DEBUG - Start listen channel time: 13
+2024-12-13 10:26:10,265 - DEBUG - Channel free to transmit
+2024-12-13 10:26:10,266 - INFO - Send RTS
+2024-12-13 10:26:11,267 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:11,267 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:11,399 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:11,399 - INFO - FR received
+2024-12-13 10:26:11,399 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:11,399 - DEBUG - Start listen channel time: 26
+2024-12-13 10:26:11,426 - DEBUG - Channel free to transmit
+2024-12-13 10:26:11,426 - INFO - Send RTS
+2024-12-13 10:26:12,427 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:12,428 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:12,566 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:12,566 - INFO - FR received
+2024-12-13 10:26:12,567 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:12,567 - DEBUG - Start listen channel time: 24
+2024-12-13 10:26:12,591 - DEBUG - Channel free to transmit
+2024-12-13 10:26:12,591 - INFO - Send RTS
+2024-12-13 10:26:13,592 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:13,593 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:13,665 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:13,665 - INFO - FR received
+2024-12-13 10:26:13,665 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:13,665 - DEBUG - Start listen channel time: 55
+2024-12-13 10:26:13,720 - DEBUG - Channel free to transmit
+2024-12-13 10:26:13,721 - INFO - Send RTS
+2024-12-13 10:26:14,722 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:14,722 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:14,740 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:14,740 - INFO - FR received
+2024-12-13 10:26:14,740 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:14,740 - DEBUG - Start listen channel time: 1
+2024-12-13 10:26:14,741 - DEBUG - Channel free to transmit
+2024-12-13 10:26:14,742 - INFO - Send RTS
+2024-12-13 10:26:14,776 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:26:15,743 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:15,743 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:15,866 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:15,867 - INFO - FR received
+2024-12-13 10:26:15,867 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:15,867 - DEBUG - Start listen channel time: 8
+2024-12-13 10:26:15,875 - DEBUG - Channel free to transmit
+2024-12-13 10:26:15,875 - INFO - Send RTS
+2024-12-13 10:26:16,877 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:16,877 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:17,004 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:17,004 - INFO - FR received
+2024-12-13 10:26:17,004 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:17,004 - DEBUG - Start listen channel time: 21
+2024-12-13 10:26:17,025 - DEBUG - Channel free to transmit
+2024-12-13 10:26:17,026 - INFO - Send RTS
+2024-12-13 10:26:18,027 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:18,027 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:18,161 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:18,161 - INFO - FR received
+2024-12-13 10:26:18,161 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:18,161 - DEBUG - Start listen channel time: 16
+2024-12-13 10:26:18,178 - DEBUG - Channel free to transmit
+2024-12-13 10:26:18,178 - INFO - Send RTS
+2024-12-13 10:26:18,183 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:26:19,179 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:19,180 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:19,312 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:19,313 - INFO - FR received
+2024-12-13 10:26:19,313 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:19,313 - DEBUG - Start listen channel time: 22
+2024-12-13 10:26:19,335 - DEBUG - Channel free to transmit
+2024-12-13 10:26:19,335 - INFO - Send RTS
+2024-12-13 10:26:20,339 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:20,339 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:20,418 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:20,419 - INFO - FR received
+2024-12-13 10:26:20,419 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:20,419 - DEBUG - Start listen channel time: 17
+2024-12-13 10:26:20,436 - DEBUG - Channel free to transmit
+2024-12-13 10:26:20,436 - INFO - Send RTS
+2024-12-13 10:26:21,438 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:21,438 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:21,562 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:21,562 - INFO - FR received
+2024-12-13 10:26:21,562 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:21,563 - DEBUG - Start listen channel time: 34
+2024-12-13 10:26:21,597 - DEBUG - Channel free to transmit
+2024-12-13 10:26:21,597 - INFO - Send RTS
+2024-12-13 10:26:22,598 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:22,599 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:22,669 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:22,669 - INFO - FR received
+2024-12-13 10:26:22,669 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:22,669 - DEBUG - Start listen channel time: 40
+2024-12-13 10:26:22,710 - DEBUG - Channel free to transmit
+2024-12-13 10:26:22,710 - INFO - Send RTS
+2024-12-13 10:26:23,711 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:23,712 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:23,714 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:23,715 - INFO - FR received
+2024-12-13 10:26:23,715 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:23,715 - DEBUG - Start listen channel time: 33
+2024-12-13 10:26:23,748 - DEBUG - Channel free to transmit
+2024-12-13 10:26:23,748 - INFO - Send RTS
+2024-12-13 10:26:24,730 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:24,750 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:24,750 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:25,818 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:25,818 - INFO - FR received
+2024-12-13 10:26:25,819 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:25,819 - DEBUG - Start listen channel time: 52
+2024-12-13 10:26:25,871 - DEBUG - Channel free to transmit
+2024-12-13 10:26:25,871 - INFO - Send RTS
+2024-12-13 10:26:26,873 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:26,873 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:26,973 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:26,973 - INFO - FR received
+2024-12-13 10:26:26,974 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:26,974 - DEBUG - Start listen channel time: 53
+2024-12-13 10:26:27,027 - DEBUG - Channel free to transmit
+2024-12-13 10:26:27,027 - INFO - Send RTS
+2024-12-13 10:26:28,022 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:28,028 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:28,029 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:29,107 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:29,107 - INFO - FR received
+2024-12-13 10:26:29,108 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:29,108 - DEBUG - Start listen channel time: 38
+2024-12-13 10:26:29,146 - DEBUG - Channel free to transmit
+2024-12-13 10:26:29,146 - INFO - Send RTS
+2024-12-13 10:26:30,147 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:30,148 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:30,262 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:30,263 - INFO - FR received
+2024-12-13 10:26:30,263 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:30,263 - DEBUG - Start listen channel time: 2
+2024-12-13 10:26:30,266 - DEBUG - Channel free to transmit
+2024-12-13 10:26:30,266 - INFO - Send RTS
+2024-12-13 10:26:31,267 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:31,268 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:31,421 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:31,421 - INFO - FR received
+2024-12-13 10:26:31,421 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:31,421 - DEBUG - Start listen channel time: 21
+2024-12-13 10:26:31,443 - DEBUG - Channel free to transmit
+2024-12-13 10:26:31,443 - INFO - Send RTS
+2024-12-13 10:26:32,444 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:32,445 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:32,489 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:32,489 - INFO - FR received
+2024-12-13 10:26:32,489 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:32,490 - DEBUG - Start listen channel time: 51
+2024-12-13 10:26:32,541 - DEBUG - Channel free to transmit
+2024-12-13 10:26:32,541 - INFO - Send RTS
+2024-12-13 10:26:33,511 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:33,522 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:26:33,542 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:33,543 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:34,527 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:34,527 - INFO - FR received
+2024-12-13 10:26:34,528 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:34,528 - DEBUG - Start listen channel time: 47
+2024-12-13 10:26:34,575 - DEBUG - Channel free to transmit
+2024-12-13 10:26:34,575 - INFO - Send RTS
+2024-12-13 10:26:35,576 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:35,577 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:35,603 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:35,604 - INFO - FR received
+2024-12-13 10:26:35,604 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:35,604 - DEBUG - Start listen channel time: 4
+2024-12-13 10:26:35,608 - DEBUG - Channel free to transmit
+2024-12-13 10:26:35,608 - INFO - Send RTS
+2024-12-13 10:26:35,627 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:26:36,610 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:36,610 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:36,720 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:36,720 - INFO - FR received
+2024-12-13 10:26:36,720 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:36,721 - DEBUG - Start listen channel time: 38
+2024-12-13 10:26:36,759 - DEBUG - Channel free to transmit
+2024-12-13 10:26:36,759 - INFO - Send RTS
+2024-12-13 10:26:37,760 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:37,761 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:37,775 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:37,776 - INFO - FR received
+2024-12-13 10:26:37,776 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:37,776 - DEBUG - Start listen channel time: 55
+2024-12-13 10:26:37,831 - DEBUG - Channel free to transmit
+2024-12-13 10:26:37,831 - INFO - Send RTS
+2024-12-13 10:26:38,833 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:38,833 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:38,914 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:38,915 - INFO - FR received
+2024-12-13 10:26:38,915 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:38,915 - DEBUG - Start listen channel time: 11
+2024-12-13 10:26:38,926 - DEBUG - Channel free to transmit
+2024-12-13 10:26:38,927 - INFO - Send RTS
+2024-12-13 10:26:39,928 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:39,928 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:40,040 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:40,041 - INFO - FR received
+2024-12-13 10:26:40,041 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:40,041 - DEBUG - Start listen channel time: 43
+2024-12-13 10:26:40,084 - DEBUG - Channel free to transmit
+2024-12-13 10:26:40,085 - INFO - Send RTS
+2024-12-13 10:26:41,086 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:41,086 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:41,196 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:41,197 - INFO - FR received
+2024-12-13 10:26:41,197 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:41,197 - DEBUG - Start listen channel time: 29
+2024-12-13 10:26:41,226 - DEBUG - Channel free to transmit
+2024-12-13 10:26:41,226 - INFO - Send RTS
+2024-12-13 10:26:41,230 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:26:42,228 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:42,228 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:42,243 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:42,244 - INFO - FR received
+2024-12-13 10:26:42,244 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:42,244 - DEBUG - Start listen channel time: 39
+2024-12-13 10:26:42,283 - DEBUG - Channel free to transmit
+2024-12-13 10:26:42,284 - INFO - Send RTS
+2024-12-13 10:26:43,267 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:43,285 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:43,285 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:44,375 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:44,375 - INFO - FR received
+2024-12-13 10:26:44,375 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:44,376 - DEBUG - Start listen channel time: 42
+2024-12-13 10:26:44,418 - DEBUG - Channel free to transmit
+2024-12-13 10:26:44,418 - INFO - Send RTS
+2024-12-13 10:26:45,419 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:45,420 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:45,531 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:45,532 - INFO - FR received
+2024-12-13 10:26:45,532 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:45,532 - DEBUG - Start listen channel time: 37
+2024-12-13 10:26:45,569 - DEBUG - Channel free to transmit
+2024-12-13 10:26:45,569 - INFO - Send RTS
+2024-12-13 10:26:46,571 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:46,571 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:46,682 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:46,682 - INFO - FR received
+2024-12-13 10:26:46,683 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:46,683 - DEBUG - Start listen channel time: 21
+2024-12-13 10:26:46,704 - DEBUG - Channel free to transmit
+2024-12-13 10:26:46,704 - INFO - Send RTS
+2024-12-13 10:26:47,705 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:47,706 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:47,745 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:47,746 - INFO - FR received
+2024-12-13 10:26:47,746 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:47,746 - DEBUG - Start listen channel time: 45
+2024-12-13 10:26:47,791 - DEBUG - Channel free to transmit
+2024-12-13 10:26:47,791 - INFO - Send RTS
+2024-12-13 10:26:48,793 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:48,793 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:48,821 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:48,821 - INFO - FR received
+2024-12-13 10:26:48,822 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:48,822 - DEBUG - Start listen channel time: 6
+2024-12-13 10:26:48,828 - DEBUG - Channel free to transmit
+2024-12-13 10:26:48,828 - INFO - Send RTS
+2024-12-13 10:26:49,830 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:49,830 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:49,847 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:49,847 - INFO - FR received
+2024-12-13 10:26:49,847 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:49,848 - DEBUG - Start listen channel time: 17
+2024-12-13 10:26:49,865 - DEBUG - Channel free to transmit
+2024-12-13 10:26:49,865 - INFO - Send RTS
+2024-12-13 10:26:50,866 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:50,867 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:50,913 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:50,913 - INFO - FR received
+2024-12-13 10:26:50,914 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:50,914 - DEBUG - Start listen channel time: 37
+2024-12-13 10:26:50,951 - DEBUG - Channel free to transmit
+2024-12-13 10:26:50,951 - INFO - Send RTS
+2024-12-13 10:26:51,952 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:51,953 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:52,060 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:52,061 - INFO - FR received
+2024-12-13 10:26:52,061 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:52,061 - DEBUG - Start listen channel time: 34
+2024-12-13 10:26:52,095 - DEBUG - Channel free to transmit
+2024-12-13 10:26:52,096 - INFO - Send RTS
+2024-12-13 10:26:53,097 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:53,097 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:53,175 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:53,175 - INFO - FR received
+2024-12-13 10:26:53,175 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:53,176 - DEBUG - Start listen channel time: 54
+2024-12-13 10:26:53,230 - DEBUG - Channel free to transmit
+2024-12-13 10:26:53,230 - INFO - Send RTS
+2024-12-13 10:26:54,231 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:54,232 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:54,281 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:54,282 - INFO - FR received
+2024-12-13 10:26:54,282 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:54,282 - DEBUG - Start listen channel time: 11
+2024-12-13 10:26:54,293 - DEBUG - Channel free to transmit
+2024-12-13 10:26:54,294 - INFO - Send RTS
+2024-12-13 10:26:54,299 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:26:55,295 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:55,295 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:55,327 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:55,327 - INFO - FR received
+2024-12-13 10:26:55,327 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:55,328 - DEBUG - Start listen channel time: 15
+2024-12-13 10:26:55,343 - DEBUG - Channel free to transmit
+2024-12-13 10:26:55,343 - INFO - Send RTS
+2024-12-13 10:26:56,343 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:56,344 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:56,344 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:57,358 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:57,358 - INFO - FR received
+2024-12-13 10:26:57,358 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:57,359 - DEBUG - Start listen channel time: 53
+2024-12-13 10:26:57,412 - DEBUG - Channel free to transmit
+2024-12-13 10:26:57,412 - INFO - Send RTS
+2024-12-13 10:26:58,413 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:58,414 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:58,455 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:58,455 - INFO - FR received
+2024-12-13 10:26:58,455 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:58,456 - DEBUG - Start listen channel time: 24
+2024-12-13 10:26:58,480 - DEBUG - Channel free to transmit
+2024-12-13 10:26:58,480 - INFO - Send RTS
+2024-12-13 10:26:59,481 - WARNING - Node has not replay the RTS
+2024-12-13 10:26:59,482 - DEBUG - Listening Discovery channel...
+2024-12-13 10:26:59,592 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:26:59,592 - INFO - FR received
+2024-12-13 10:26:59,593 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:26:59,593 - DEBUG - Start listen channel time: 39
+2024-12-13 10:26:59,632 - DEBUG - Channel free to transmit
+2024-12-13 10:26:59,632 - INFO - Send RTS
+2024-12-13 10:27:00,634 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:00,634 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:00,657 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:00,658 - INFO - FR received
+2024-12-13 10:27:00,658 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:00,658 - DEBUG - Start listen channel time: 45
+2024-12-13 10:27:00,704 - DEBUG - Channel free to transmit
+2024-12-13 10:27:00,704 - INFO - Send RTS
+2024-12-13 10:27:01,676 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:01,684 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:01,705 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:01,706 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:02,760 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:02,760 - INFO - FR received
+2024-12-13 10:27:02,765 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:02,765 - DEBUG - Start listen channel time: 10
+2024-12-13 10:27:02,775 - DEBUG - Channel free to transmit
+2024-12-13 10:27:02,775 - INFO - Send RTS
+2024-12-13 10:27:03,777 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:03,777 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:03,909 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:03,910 - INFO - FR received
+2024-12-13 10:27:03,910 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:03,910 - DEBUG - Start listen channel time: 38
+2024-12-13 10:27:03,948 - DEBUG - Channel free to transmit
+2024-12-13 10:27:03,949 - INFO - Send RTS
+2024-12-13 10:27:04,941 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:04,950 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:04,950 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:04,994 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:06,061 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:06,062 - INFO - FR received
+2024-12-13 10:27:06,062 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:06,062 - DEBUG - Start listen channel time: 52
+2024-12-13 10:27:06,114 - DEBUG - Channel free to transmit
+2024-12-13 10:27:06,115 - INFO - Send RTS
+2024-12-13 10:27:07,095 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:07,116 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:07,116 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:07,121 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:08,255 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:08,255 - INFO - FR received
+2024-12-13 10:27:08,256 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:08,256 - DEBUG - Start listen channel time: 52
+2024-12-13 10:27:08,308 - DEBUG - Channel free to transmit
+2024-12-13 10:27:08,308 - INFO - Send RTS
+2024-12-13 10:27:09,309 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:09,310 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:09,400 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:09,400 - INFO - FR received
+2024-12-13 10:27:09,400 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:09,401 - DEBUG - Start listen channel time: 44
+2024-12-13 10:27:09,445 - DEBUG - Channel free to transmit
+2024-12-13 10:27:09,445 - INFO - Send RTS
+2024-12-13 10:27:10,446 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:10,447 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:10,478 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:10,478 - INFO - FR received
+2024-12-13 10:27:10,479 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:10,479 - DEBUG - Start listen channel time: 10
+2024-12-13 10:27:10,489 - DEBUG - Channel free to transmit
+2024-12-13 10:27:10,489 - INFO - Send RTS
+2024-12-13 10:27:11,490 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:11,491 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:11,602 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:11,602 - INFO - FR received
+2024-12-13 10:27:11,603 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:11,603 - DEBUG - Start listen channel time: 16
+2024-12-13 10:27:11,619 - DEBUG - Channel free to transmit
+2024-12-13 10:27:11,619 - INFO - Send RTS
+2024-12-13 10:27:12,620 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:12,621 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:12,649 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:12,650 - INFO - FR received
+2024-12-13 10:27:12,650 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:12,650 - DEBUG - Start listen channel time: 38
+2024-12-13 10:27:12,688 - DEBUG - Channel free to transmit
+2024-12-13 10:27:12,688 - INFO - Send RTS
+2024-12-13 10:27:13,690 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:13,690 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:13,734 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:13,735 - INFO - FR received
+2024-12-13 10:27:13,735 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:13,735 - DEBUG - Start listen channel time: 24
+2024-12-13 10:27:13,759 - DEBUG - Channel free to transmit
+2024-12-13 10:27:13,760 - INFO - Send RTS
+2024-12-13 10:27:14,761 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:14,761 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:14,851 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:14,851 - INFO - FR received
+2024-12-13 10:27:14,851 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:14,852 - DEBUG - Start listen channel time: 30
+2024-12-13 10:27:14,882 - DEBUG - Channel free to transmit
+2024-12-13 10:27:14,882 - INFO - Send RTS
+2024-12-13 10:27:14,905 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:15,883 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:15,884 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:15,967 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:15,968 - INFO - FR received
+2024-12-13 10:27:15,968 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:15,968 - DEBUG - Start listen channel time: 36
+2024-12-13 10:27:16,004 - DEBUG - Channel free to transmit
+2024-12-13 10:27:16,004 - INFO - Send RTS
+2024-12-13 10:27:17,006 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:17,006 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:17,064 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:17,065 - INFO - FR received
+2024-12-13 10:27:17,066 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:17,066 - DEBUG - Start listen channel time: 35
+2024-12-13 10:27:17,101 - DEBUG - Channel free to transmit
+2024-12-13 10:27:17,102 - INFO - Send RTS
+2024-12-13 10:27:17,121 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:18,103 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:18,103 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:18,191 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:18,191 - INFO - FR received
+2024-12-13 10:27:18,192 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:18,192 - DEBUG - Start listen channel time: 43
+2024-12-13 10:27:18,235 - DEBUG - Channel free to transmit
+2024-12-13 10:27:18,235 - INFO - Send RTS
+2024-12-13 10:27:19,227 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:19,236 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:19,237 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:20,246 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:20,247 - INFO - FR received
+2024-12-13 10:27:20,247 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:20,247 - DEBUG - Start listen channel time: 11
+2024-12-13 10:27:20,258 - DEBUG - Channel free to transmit
+2024-12-13 10:27:20,258 - INFO - Send RTS
+2024-12-13 10:27:21,258 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:21,260 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:21,260 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:21,278 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:22,374 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:22,375 - INFO - FR received
+2024-12-13 10:27:22,375 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:22,375 - DEBUG - Start listen channel time: 48
+2024-12-13 10:27:22,424 - DEBUG - Channel free to transmit
+2024-12-13 10:27:22,424 - INFO - Send RTS
+2024-12-13 10:27:23,425 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:23,426 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:23,492 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:23,493 - INFO - FR received
+2024-12-13 10:27:23,493 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:23,493 - DEBUG - Start listen channel time: 3
+2024-12-13 10:27:23,497 - DEBUG - Channel free to transmit
+2024-12-13 10:27:23,497 - INFO - Send RTS
+2024-12-13 10:27:24,498 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:24,499 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:24,500 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:24,501 - INFO - FR received
+2024-12-13 10:27:24,501 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:24,501 - DEBUG - Start listen channel time: 15
+2024-12-13 10:27:24,516 - DEBUG - Channel free to transmit
+2024-12-13 10:27:24,516 - INFO - Send RTS
+2024-12-13 10:27:25,518 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:25,518 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:25,542 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:25,542 - INFO - FR received
+2024-12-13 10:27:25,542 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:25,543 - DEBUG - Start listen channel time: 8
+2024-12-13 10:27:25,551 - DEBUG - Channel free to transmit
+2024-12-13 10:27:25,551 - INFO - Send RTS
+2024-12-13 10:27:26,552 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:26,553 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:26,561 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:26,561 - INFO - FR received
+2024-12-13 10:27:26,561 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:26,561 - DEBUG - Start listen channel time: 47
+2024-12-13 10:27:26,608 - DEBUG - Channel free to transmit
+2024-12-13 10:27:26,609 - INFO - Send RTS
+2024-12-13 10:27:26,613 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:27,610 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:27,610 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:27,654 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:27,654 - INFO - FR received
+2024-12-13 10:27:27,654 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:27,655 - DEBUG - Start listen channel time: 20
+2024-12-13 10:27:27,675 - DEBUG - Channel free to transmit
+2024-12-13 10:27:27,675 - INFO - Send RTS
+2024-12-13 10:27:28,676 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:28,677 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:28,773 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:28,773 - INFO - FR received
+2024-12-13 10:27:28,773 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:28,773 - DEBUG - Start listen channel time: 27
+2024-12-13 10:27:28,801 - DEBUG - Channel free to transmit
+2024-12-13 10:27:28,801 - INFO - Send RTS
+2024-12-13 10:27:29,802 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:29,802 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:29,912 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:29,912 - INFO - FR received
+2024-12-13 10:27:29,912 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:29,913 - DEBUG - Start listen channel time: 27
+2024-12-13 10:27:29,940 - DEBUG - Channel free to transmit
+2024-12-13 10:27:29,940 - INFO - Send RTS
+2024-12-13 10:27:29,957 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:30,941 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:30,942 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:30,956 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:30,956 - INFO - FR received
+2024-12-13 10:27:30,956 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:30,956 - DEBUG - Start listen channel time: 54
+2024-12-13 10:27:31,011 - DEBUG - Channel free to transmit
+2024-12-13 10:27:31,011 - INFO - Send RTS
+2024-12-13 10:27:32,012 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:32,012 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:32,020 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:32,020 - INFO - FR received
+2024-12-13 10:27:32,021 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:32,021 - DEBUG - Start listen channel time: 10
+2024-12-13 10:27:32,031 - DEBUG - Channel free to transmit
+2024-12-13 10:27:32,031 - INFO - Send RTS
+2024-12-13 10:27:33,032 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:33,033 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:33,138 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:33,139 - INFO - FR received
+2024-12-13 10:27:33,139 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:33,139 - DEBUG - Start listen channel time: 45
+2024-12-13 10:27:33,184 - DEBUG - Channel free to transmit
+2024-12-13 10:27:33,184 - INFO - Send RTS
+2024-12-13 10:27:34,155 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:34,186 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:34,186 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:35,167 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:35,168 - INFO - FR received
+2024-12-13 10:27:35,168 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:35,168 - DEBUG - Start listen channel time: 20
+2024-12-13 10:27:35,188 - DEBUG - Channel free to transmit
+2024-12-13 10:27:35,189 - INFO - Send RTS
+2024-12-13 10:27:36,183 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:36,190 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:36,190 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:37,240 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:37,241 - INFO - FR received
+2024-12-13 10:27:37,241 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:37,241 - DEBUG - Start listen channel time: 17
+2024-12-13 10:27:37,258 - DEBUG - Channel free to transmit
+2024-12-13 10:27:37,258 - INFO - Send RTS
+2024-12-13 10:27:38,260 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:38,260 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:38,305 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:38,305 - INFO - FR received
+2024-12-13 10:27:38,305 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:38,305 - DEBUG - Start listen channel time: 7
+2024-12-13 10:27:38,313 - DEBUG - Channel free to transmit
+2024-12-13 10:27:38,313 - INFO - Send RTS
+2024-12-13 10:27:39,314 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:39,315 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:39,452 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:39,452 - INFO - FR received
+2024-12-13 10:27:39,452 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:39,452 - DEBUG - Start listen channel time: 38
+2024-12-13 10:27:39,491 - DEBUG - Channel free to transmit
+2024-12-13 10:27:39,491 - INFO - Send RTS
+2024-12-13 10:27:40,492 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:40,492 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:40,497 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:40,498 - INFO - FR received
+2024-12-13 10:27:40,498 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:40,498 - DEBUG - Start listen channel time: 23
+2024-12-13 10:27:40,521 - DEBUG - Channel free to transmit
+2024-12-13 10:27:40,522 - INFO - Send RTS
+2024-12-13 10:27:41,523 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:41,523 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:41,575 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:41,575 - INFO - FR received
+2024-12-13 10:27:41,575 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:41,576 - DEBUG - Start listen channel time: 6
+2024-12-13 10:27:41,582 - DEBUG - Channel free to transmit
+2024-12-13 10:27:41,582 - INFO - Send RTS
+2024-12-13 10:27:41,610 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:42,583 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:42,584 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:42,711 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:42,711 - INFO - FR received
+2024-12-13 10:27:42,711 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:42,712 - DEBUG - Start listen channel time: 22
+2024-12-13 10:27:42,734 - DEBUG - Channel free to transmit
+2024-12-13 10:27:42,734 - INFO - Send RTS
+2024-12-13 10:27:42,767 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:43,735 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:43,736 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:43,736 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:43,737 - INFO - FR received
+2024-12-13 10:27:43,737 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:43,737 - DEBUG - Start listen channel time: 55
+2024-12-13 10:27:43,792 - DEBUG - Channel free to transmit
+2024-12-13 10:27:43,792 - INFO - Send RTS
+2024-12-13 10:27:44,794 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:44,794 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:44,853 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:44,853 - INFO - FR received
+2024-12-13 10:27:44,854 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:44,854 - DEBUG - Start listen channel time: 51
+2024-12-13 10:27:44,905 - DEBUG - Channel free to transmit
+2024-12-13 10:27:44,905 - INFO - Send RTS
+2024-12-13 10:27:45,862 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:45,907 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:45,907 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:47,000 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:47,001 - INFO - FR received
+2024-12-13 10:27:47,001 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:47,002 - DEBUG - Start listen channel time: 16
+2024-12-13 10:27:47,018 - DEBUG - Channel free to transmit
+2024-12-13 10:27:47,018 - INFO - Send RTS
+2024-12-13 10:27:47,034 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:48,004 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:48,019 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:48,020 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:49,159 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:49,159 - INFO - FR received
+2024-12-13 10:27:49,159 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:49,160 - DEBUG - Start listen channel time: 54
+2024-12-13 10:27:49,214 - DEBUG - Channel free to transmit
+2024-12-13 10:27:49,214 - INFO - Send RTS
+2024-12-13 10:27:50,178 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:50,215 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:50,216 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:51,281 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:51,282 - INFO - FR received
+2024-12-13 10:27:51,282 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:51,282 - DEBUG - Start listen channel time: 23
+2024-12-13 10:27:51,305 - DEBUG - Channel free to transmit
+2024-12-13 10:27:51,306 - INFO - Send RTS
+2024-12-13 10:27:52,307 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:52,307 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:52,336 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:52,336 - INFO - FR received
+2024-12-13 10:27:52,337 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:52,337 - DEBUG - Start listen channel time: 54
+2024-12-13 10:27:52,391 - DEBUG - Channel free to transmit
+2024-12-13 10:27:52,391 - INFO - Send RTS
+2024-12-13 10:27:53,392 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:53,393 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:53,394 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:53,395 - INFO - FR received
+2024-12-13 10:27:53,395 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:53,395 - DEBUG - Start listen channel time: 47
+2024-12-13 10:27:53,442 - DEBUG - Channel free to transmit
+2024-12-13 10:27:53,442 - INFO - Send RTS
+2024-12-13 10:27:54,444 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:54,444 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:54,549 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:54,550 - INFO - FR received
+2024-12-13 10:27:54,550 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:54,550 - DEBUG - Start listen channel time: 5
+2024-12-13 10:27:54,555 - DEBUG - Channel free to transmit
+2024-12-13 10:27:54,555 - INFO - Send RTS
+2024-12-13 10:27:54,577 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:27:55,557 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:55,557 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:55,606 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:55,607 - INFO - FR received
+2024-12-13 10:27:55,607 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:55,607 - DEBUG - Start listen channel time: 5
+2024-12-13 10:27:55,612 - DEBUG - Channel free to transmit
+2024-12-13 10:27:55,612 - INFO - Send RTS
+2024-12-13 10:27:56,614 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:56,614 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:56,722 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:56,722 - INFO - FR received
+2024-12-13 10:27:56,722 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:56,723 - DEBUG - Start listen channel time: 45
+2024-12-13 10:27:56,768 - DEBUG - Channel free to transmit
+2024-12-13 10:27:56,768 - INFO - Send RTS
+2024-12-13 10:27:57,769 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:57,770 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:57,792 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:57,792 - INFO - FR received
+2024-12-13 10:27:57,793 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:57,793 - DEBUG - Start listen channel time: 28
+2024-12-13 10:27:57,821 - DEBUG - Channel free to transmit
+2024-12-13 10:27:57,821 - INFO - Send RTS
+2024-12-13 10:27:58,795 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:58,823 - WARNING - Node has not replay the RTS
+2024-12-13 10:27:58,823 - DEBUG - Listening Discovery channel...
+2024-12-13 10:27:59,950 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:27:59,951 - INFO - FR received
+2024-12-13 10:27:59,951 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:27:59,951 - DEBUG - Start listen channel time: 35
+2024-12-13 10:27:59,986 - DEBUG - Channel free to transmit
+2024-12-13 10:27:59,987 - INFO - Send RTS
+2024-12-13 10:28:00,988 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:00,988 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:01,057 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:01,057 - INFO - FR received
+2024-12-13 10:28:01,058 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:01,058 - DEBUG - Start listen channel time: 25
+2024-12-13 10:28:01,083 - DEBUG - Channel free to transmit
+2024-12-13 10:28:01,083 - INFO - Send RTS
+2024-12-13 10:28:02,085 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:02,085 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:02,217 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:02,217 - INFO - FR received
+2024-12-13 10:28:02,217 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:02,218 - DEBUG - Start listen channel time: 10
+2024-12-13 10:28:02,228 - DEBUG - Channel free to transmit
+2024-12-13 10:28:02,228 - INFO - Send RTS
+2024-12-13 10:28:03,229 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:03,230 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:03,321 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:03,322 - INFO - FR received
+2024-12-13 10:28:03,322 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:03,322 - DEBUG - Start listen channel time: 39
+2024-12-13 10:28:03,361 - DEBUG - Channel free to transmit
+2024-12-13 10:28:03,361 - INFO - Send RTS
+2024-12-13 10:28:04,363 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:04,363 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:04,367 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:04,367 - INFO - FR received
+2024-12-13 10:28:04,367 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:04,368 - DEBUG - Start listen channel time: 33
+2024-12-13 10:28:04,401 - DEBUG - Channel free to transmit
+2024-12-13 10:28:04,401 - INFO - Send RTS
+2024-12-13 10:28:05,402 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:05,403 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:05,427 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:05,427 - INFO - FR received
+2024-12-13 10:28:05,427 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:05,428 - DEBUG - Start listen channel time: 52
+2024-12-13 10:28:05,480 - DEBUG - Channel free to transmit
+2024-12-13 10:28:05,480 - INFO - Send RTS
+2024-12-13 10:28:06,438 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:06,481 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:06,482 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:07,494 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:07,495 - INFO - FR received
+2024-12-13 10:28:07,495 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:07,495 - DEBUG - Start listen channel time: 52
+2024-12-13 10:28:07,547 - DEBUG - Channel free to transmit
+2024-12-13 10:28:07,548 - INFO - Send RTS
+2024-12-13 10:28:08,509 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:08,549 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:08,549 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:08,562 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:28:09,609 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:09,609 - INFO - FR received
+2024-12-13 10:28:09,609 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:09,610 - DEBUG - Start listen channel time: 18
+2024-12-13 10:28:09,628 - DEBUG - Channel free to transmit
+2024-12-13 10:28:09,628 - INFO - Send RTS
+2024-12-13 10:28:10,629 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:10,630 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:10,675 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:10,675 - INFO - FR received
+2024-12-13 10:28:10,676 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:10,676 - DEBUG - Start listen channel time: 52
+2024-12-13 10:28:10,728 - DEBUG - Channel free to transmit
+2024-12-13 10:28:10,728 - INFO - Send RTS
+2024-12-13 10:28:11,701 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:11,730 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:11,730 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:12,826 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:12,827 - INFO - FR received
+2024-12-13 10:28:12,831 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:12,831 - DEBUG - Start listen channel time: 14
+2024-12-13 10:28:12,845 - DEBUG - Channel free to transmit
+2024-12-13 10:28:12,846 - INFO - Send RTS
+2024-12-13 10:28:13,847 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:13,847 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:13,881 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:13,881 - INFO - FR received
+2024-12-13 10:28:13,881 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:13,881 - DEBUG - Start listen channel time: 23
+2024-12-13 10:28:13,905 - DEBUG - Channel free to transmit
+2024-12-13 10:28:13,905 - INFO - Send RTS
+2024-12-13 10:28:14,906 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:14,906 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:14,990 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:14,990 - INFO - FR received
+2024-12-13 10:28:14,990 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:14,991 - DEBUG - Start listen channel time: 40
+2024-12-13 10:28:15,031 - DEBUG - Channel free to transmit
+2024-12-13 10:28:15,031 - INFO - Send RTS
+2024-12-13 10:28:16,032 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:16,033 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:16,074 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:16,074 - INFO - FR received
+2024-12-13 10:28:16,074 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:16,074 - DEBUG - Start listen channel time: 27
+2024-12-13 10:28:16,101 - DEBUG - Channel free to transmit
+2024-12-13 10:28:16,102 - INFO - Send RTS
+2024-12-13 10:28:17,103 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:17,103 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:17,211 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:17,211 - INFO - FR received
+2024-12-13 10:28:17,211 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:17,211 - DEBUG - Start listen channel time: 3
+2024-12-13 10:28:17,215 - DEBUG - Channel free to transmit
+2024-12-13 10:28:17,215 - INFO - Send RTS
+2024-12-13 10:28:18,216 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:18,217 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:18,369 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:18,370 - INFO - FR received
+2024-12-13 10:28:18,370 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:18,370 - DEBUG - Start listen channel time: 12
+2024-12-13 10:28:18,382 - DEBUG - Channel free to transmit
+2024-12-13 10:28:18,382 - INFO - Send RTS
+2024-12-13 10:28:19,384 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:19,384 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:19,535 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:19,536 - INFO - FR received
+2024-12-13 10:28:19,536 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:19,536 - DEBUG - Start listen channel time: 16
+2024-12-13 10:28:19,552 - DEBUG - Channel free to transmit
+2024-12-13 10:28:19,552 - INFO - Send RTS
+2024-12-13 10:28:20,554 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:20,554 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:20,632 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:20,632 - INFO - FR received
+2024-12-13 10:28:20,632 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:20,632 - DEBUG - Start listen channel time: 11
+2024-12-13 10:28:20,643 - DEBUG - Channel free to transmit
+2024-12-13 10:28:20,644 - INFO - Send RTS
+2024-12-13 10:28:21,641 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:21,645 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:21,645 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:22,663 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:22,664 - INFO - FR received
+2024-12-13 10:28:22,664 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:22,664 - DEBUG - Start listen channel time: 18
+2024-12-13 10:28:22,682 - DEBUG - Channel free to transmit
+2024-12-13 10:28:22,682 - INFO - Send RTS
+2024-12-13 10:28:23,684 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:23,684 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:23,770 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:23,770 - INFO - FR received
+2024-12-13 10:28:23,770 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:23,771 - DEBUG - Start listen channel time: 46
+2024-12-13 10:28:23,817 - DEBUG - Channel free to transmit
+2024-12-13 10:28:23,817 - INFO - Send RTS
+2024-12-13 10:28:24,795 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:24,818 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:24,819 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:25,962 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:25,963 - INFO - FR received
+2024-12-13 10:28:25,963 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:25,963 - DEBUG - Start listen channel time: 53
+2024-12-13 10:28:26,016 - DEBUG - Channel free to transmit
+2024-12-13 10:28:26,017 - INFO - Send RTS
+2024-12-13 10:28:26,982 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:27,018 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:27,018 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:28,105 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:28,105 - INFO - FR received
+2024-12-13 10:28:28,106 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:28,106 - DEBUG - Start listen channel time: 12
+2024-12-13 10:28:28,118 - DEBUG - Channel free to transmit
+2024-12-13 10:28:28,118 - INFO - Send RTS
+2024-12-13 10:28:29,120 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:29,120 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:29,140 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:29,141 - INFO - FR received
+2024-12-13 10:28:29,141 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:29,141 - DEBUG - Start listen channel time: 1
+2024-12-13 10:28:29,142 - DEBUG - Channel free to transmit
+2024-12-13 10:28:29,142 - INFO - Send RTS
+2024-12-13 10:28:30,144 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:30,144 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:30,298 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:30,298 - INFO - FR received
+2024-12-13 10:28:30,298 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:30,299 - DEBUG - Start listen channel time: 50
+2024-12-13 10:28:30,349 - DEBUG - Channel free to transmit
+2024-12-13 10:28:30,349 - INFO - Send RTS
+2024-12-13 10:28:31,334 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:31,350 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:31,350 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:32,430 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:32,431 - INFO - FR received
+2024-12-13 10:28:32,431 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:32,431 - DEBUG - Start listen channel time: 29
+2024-12-13 10:28:32,460 - DEBUG - Channel free to transmit
+2024-12-13 10:28:32,461 - INFO - Send RTS
+2024-12-13 10:28:33,462 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:33,462 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:33,587 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:33,588 - INFO - FR received
+2024-12-13 10:28:33,588 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:33,588 - DEBUG - Start listen channel time: 12
+2024-12-13 10:28:33,600 - DEBUG - Channel free to transmit
+2024-12-13 10:28:33,600 - INFO - Send RTS
+2024-12-13 10:28:33,605 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:28:34,602 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:34,602 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:34,674 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:34,674 - INFO - FR received
+2024-12-13 10:28:34,674 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:34,675 - DEBUG - Start listen channel time: 46
+2024-12-13 10:28:34,721 - DEBUG - Channel free to transmit
+2024-12-13 10:28:34,721 - INFO - Send RTS
+2024-12-13 10:28:35,722 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:35,723 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:35,801 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:35,801 - INFO - FR received
+2024-12-13 10:28:35,801 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:35,802 - DEBUG - Start listen channel time: 49
+2024-12-13 10:28:35,851 - DEBUG - Channel free to transmit
+2024-12-13 10:28:35,851 - INFO - Send RTS
+2024-12-13 10:28:36,827 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:36,852 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:36,853 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:37,842 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:37,843 - INFO - FR received
+2024-12-13 10:28:37,843 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:37,843 - DEBUG - Start listen channel time: 23
+2024-12-13 10:28:37,866 - DEBUG - Channel free to transmit
+2024-12-13 10:28:37,867 - INFO - Send RTS
+2024-12-13 10:28:38,849 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:38,868 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:38,868 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:39,924 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:39,925 - INFO - FR received
+2024-12-13 10:28:39,925 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:39,926 - DEBUG - Start listen channel time: 20
+2024-12-13 10:28:39,946 - DEBUG - Channel free to transmit
+2024-12-13 10:28:39,946 - INFO - Send RTS
+2024-12-13 10:28:40,947 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:40,948 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:41,022 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:41,023 - INFO - FR received
+2024-12-13 10:28:41,023 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:41,023 - DEBUG - Start listen channel time: 20
+2024-12-13 10:28:41,043 - DEBUG - Channel free to transmit
+2024-12-13 10:28:41,043 - INFO - Send RTS
+2024-12-13 10:28:42,045 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:42,045 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:42,157 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:42,157 - INFO - FR received
+2024-12-13 10:28:42,158 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:42,158 - DEBUG - Start listen channel time: 45
+2024-12-13 10:28:42,204 - DEBUG - Channel free to transmit
+2024-12-13 10:28:42,204 - INFO - Send RTS
+2024-12-13 10:28:43,205 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:43,206 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:43,295 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:43,295 - INFO - FR received
+2024-12-13 10:28:43,295 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:43,295 - DEBUG - Start listen channel time: 15
+2024-12-13 10:28:43,310 - DEBUG - Channel free to transmit
+2024-12-13 10:28:43,311 - INFO - Send RTS
+2024-12-13 10:28:44,312 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:44,312 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:44,411 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:44,411 - INFO - FR received
+2024-12-13 10:28:44,412 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:44,412 - DEBUG - Start listen channel time: 19
+2024-12-13 10:28:44,431 - DEBUG - Channel free to transmit
+2024-12-13 10:28:44,431 - INFO - Send RTS
+2024-12-13 10:28:45,433 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:45,433 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:45,486 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:45,487 - INFO - FR received
+2024-12-13 10:28:45,487 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:45,487 - DEBUG - Start listen channel time: 8
+2024-12-13 10:28:45,495 - DEBUG - Channel free to transmit
+2024-12-13 10:28:45,496 - INFO - Send RTS
+2024-12-13 10:28:46,497 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:46,497 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:46,644 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:46,644 - INFO - FR received
+2024-12-13 10:28:46,644 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:46,645 - DEBUG - Start listen channel time: 3
+2024-12-13 10:28:46,648 - DEBUG - Channel free to transmit
+2024-12-13 10:28:46,648 - INFO - Send RTS
+2024-12-13 10:28:47,649 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:47,650 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:47,672 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:47,672 - INFO - FR received
+2024-12-13 10:28:47,673 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:47,673 - DEBUG - Start listen channel time: 33
+2024-12-13 10:28:47,706 - DEBUG - Channel free to transmit
+2024-12-13 10:28:47,706 - INFO - Send RTS
+2024-12-13 10:28:48,707 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:48,708 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:48,736 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:48,736 - INFO - FR received
+2024-12-13 10:28:48,736 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:48,736 - DEBUG - Start listen channel time: 23
+2024-12-13 10:28:48,760 - DEBUG - Channel free to transmit
+2024-12-13 10:28:48,760 - INFO - Send RTS
+2024-12-13 10:28:49,761 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:49,761 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:49,826 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:49,826 - INFO - FR received
+2024-12-13 10:28:49,827 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:49,827 - DEBUG - Start listen channel time: 1
+2024-12-13 10:28:49,828 - DEBUG - Channel free to transmit
+2024-12-13 10:28:49,828 - INFO - Send RTS
+2024-12-13 10:28:49,838 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:28:50,829 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:50,830 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:50,909 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:50,909 - INFO - FR received
+2024-12-13 10:28:50,909 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:50,910 - DEBUG - Start listen channel time: 11
+2024-12-13 10:28:50,921 - DEBUG - Channel free to transmit
+2024-12-13 10:28:50,921 - INFO - Send RTS
+2024-12-13 10:28:51,922 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:51,923 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:52,046 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:52,046 - INFO - FR received
+2024-12-13 10:28:52,047 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:52,047 - DEBUG - Start listen channel time: 22
+2024-12-13 10:28:52,069 - DEBUG - Channel free to transmit
+2024-12-13 10:28:52,069 - INFO - Send RTS
+2024-12-13 10:28:52,075 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:28:53,071 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:53,071 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:53,183 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:53,184 - INFO - FR received
+2024-12-13 10:28:53,184 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:53,184 - DEBUG - Start listen channel time: 41
+2024-12-13 10:28:53,225 - DEBUG - Channel free to transmit
+2024-12-13 10:28:53,225 - INFO - Send RTS
+2024-12-13 10:28:54,227 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:54,227 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:54,287 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:54,287 - INFO - FR received
+2024-12-13 10:28:54,287 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:54,287 - DEBUG - Start listen channel time: 46
+2024-12-13 10:28:54,334 - DEBUG - Channel free to transmit
+2024-12-13 10:28:54,334 - INFO - Send RTS
+2024-12-13 10:28:55,335 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:55,336 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:55,386 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:55,386 - INFO - FR received
+2024-12-13 10:28:55,387 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:55,387 - DEBUG - Start listen channel time: 55
+2024-12-13 10:28:55,442 - DEBUG - Channel free to transmit
+2024-12-13 10:28:55,442 - INFO - Send RTS
+2024-12-13 10:28:56,398 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:56,443 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:56,444 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:57,546 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:57,546 - INFO - FR received
+2024-12-13 10:28:57,546 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:57,546 - DEBUG - Start listen channel time: 15
+2024-12-13 10:28:57,562 - DEBUG - Channel free to transmit
+2024-12-13 10:28:57,562 - INFO - Send RTS
+2024-12-13 10:28:58,563 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:58,564 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:58,683 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:58,683 - INFO - FR received
+2024-12-13 10:28:58,683 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:58,684 - DEBUG - Start listen channel time: 24
+2024-12-13 10:28:58,708 - DEBUG - Channel free to transmit
+2024-12-13 10:28:58,708 - INFO - Send RTS
+2024-12-13 10:28:59,709 - WARNING - Node has not replay the RTS
+2024-12-13 10:28:59,710 - DEBUG - Listening Discovery channel...
+2024-12-13 10:28:59,841 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:28:59,841 - INFO - FR received
+2024-12-13 10:28:59,841 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:28:59,841 - DEBUG - Start listen channel time: 22
+2024-12-13 10:28:59,864 - DEBUG - Channel free to transmit
+2024-12-13 10:28:59,864 - INFO - Send RTS
+2024-12-13 10:28:59,886 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:29:00,865 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:00,866 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:00,870 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:00,871 - INFO - FR received
+2024-12-13 10:29:00,871 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:00,871 - DEBUG - Start listen channel time: 48
+2024-12-13 10:29:00,919 - DEBUG - Channel free to transmit
+2024-12-13 10:29:00,919 - INFO - Send RTS
+2024-12-13 10:29:01,921 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:01,921 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:02,008 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:02,008 - INFO - FR received
+2024-12-13 10:29:02,008 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:02,008 - DEBUG - Start listen channel time: 16
+2024-12-13 10:29:02,025 - DEBUG - Channel free to transmit
+2024-12-13 10:29:02,025 - INFO - Send RTS
+2024-12-13 10:29:02,058 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:29:03,026 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:03,026 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:03,095 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:03,095 - INFO - FR received
+2024-12-13 10:29:03,095 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:03,095 - DEBUG - Start listen channel time: 12
+2024-12-13 10:29:03,108 - DEBUG - Channel free to transmit
+2024-12-13 10:29:03,108 - INFO - Send RTS
+2024-12-13 10:29:03,129 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:29:04,109 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:04,110 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:04,140 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:04,140 - INFO - FR received
+2024-12-13 10:29:04,140 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:04,140 - DEBUG - Start listen channel time: 6
+2024-12-13 10:29:04,146 - DEBUG - Channel free to transmit
+2024-12-13 10:29:04,147 - INFO - Send RTS
+2024-12-13 10:29:05,148 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:05,148 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:05,207 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:05,207 - INFO - FR received
+2024-12-13 10:29:05,208 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:05,208 - DEBUG - Start listen channel time: 9
+2024-12-13 10:29:05,217 - DEBUG - Channel free to transmit
+2024-12-13 10:29:05,217 - INFO - Send RTS
+2024-12-13 10:29:06,218 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:06,219 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:06,322 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:06,323 - INFO - FR received
+2024-12-13 10:29:06,323 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:06,323 - DEBUG - Start listen channel time: 19
+2024-12-13 10:29:06,342 - DEBUG - Channel free to transmit
+2024-12-13 10:29:06,342 - INFO - Send RTS
+2024-12-13 10:29:07,344 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:07,344 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:07,360 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:07,360 - INFO - FR received
+2024-12-13 10:29:07,360 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:07,360 - DEBUG - Start listen channel time: 55
+2024-12-13 10:29:07,416 - DEBUG - Channel free to transmit
+2024-12-13 10:29:07,416 - INFO - Send RTS
+2024-12-13 10:29:08,417 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:08,418 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:08,445 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:08,446 - INFO - FR received
+2024-12-13 10:29:08,446 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:08,446 - DEBUG - Start listen channel time: 40
+2024-12-13 10:29:08,486 - DEBUG - Channel free to transmit
+2024-12-13 10:29:08,487 - INFO - Send RTS
+2024-12-13 10:29:09,488 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:09,488 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:09,602 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:09,602 - INFO - FR received
+2024-12-13 10:29:09,602 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:09,603 - DEBUG - Start listen channel time: 7
+2024-12-13 10:29:09,610 - DEBUG - Channel free to transmit
+2024-12-13 10:29:09,610 - INFO - Send RTS
+2024-12-13 10:29:10,611 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:10,612 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:10,658 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:10,658 - INFO - FR received
+2024-12-13 10:29:10,658 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:10,658 - DEBUG - Start listen channel time: 19
+2024-12-13 10:29:10,678 - DEBUG - Channel free to transmit
+2024-12-13 10:29:10,678 - INFO - Send RTS
+2024-12-13 10:29:11,679 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:11,680 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:11,744 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:11,744 - INFO - FR received
+2024-12-13 10:29:11,744 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:11,745 - DEBUG - Start listen channel time: 35
+2024-12-13 10:29:11,780 - DEBUG - Channel free to transmit
+2024-12-13 10:29:11,780 - INFO - Send RTS
+2024-12-13 10:29:12,781 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:12,782 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:12,841 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:12,841 - INFO - FR received
+2024-12-13 10:29:12,841 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:12,841 - DEBUG - Start listen channel time: 46
+2024-12-13 10:29:12,888 - DEBUG - Channel free to transmit
+2024-12-13 10:29:12,888 - INFO - Send RTS
+2024-12-13 10:29:13,867 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:13,889 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:13,889 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:14,925 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:14,926 - INFO - FR received
+2024-12-13 10:29:14,926 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:14,926 - DEBUG - Start listen channel time: 52
+2024-12-13 10:29:14,978 - DEBUG - Channel free to transmit
+2024-12-13 10:29:14,979 - INFO - Send RTS
+2024-12-13 10:29:15,930 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:15,980 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:15,980 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:17,025 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:17,025 - INFO - FR received
+2024-12-13 10:29:17,025 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:17,026 - DEBUG - Start listen channel time: 15
+2024-12-13 10:29:17,041 - DEBUG - Channel free to transmit
+2024-12-13 10:29:17,041 - INFO - Send RTS
+2024-12-13 10:29:18,042 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:18,043 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:18,133 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:18,133 - INFO - FR received
+2024-12-13 10:29:18,133 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:18,134 - DEBUG - Start listen channel time: 22
+2024-12-13 10:29:18,156 - DEBUG - Channel free to transmit
+2024-12-13 10:29:18,156 - INFO - Send RTS
+2024-12-13 10:29:19,157 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:19,158 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:19,260 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:19,261 - INFO - FR received
+2024-12-13 10:29:19,261 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:19,261 - DEBUG - Start listen channel time: 13
+2024-12-13 10:29:19,275 - DEBUG - Channel free to transmit
+2024-12-13 10:29:19,275 - INFO - Send RTS
+2024-12-13 10:29:20,276 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:20,277 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:20,385 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:20,385 - INFO - FR received
+2024-12-13 10:29:20,385 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:20,386 - DEBUG - Start listen channel time: 12
+2024-12-13 10:29:20,398 - DEBUG - Channel free to transmit
+2024-12-13 10:29:20,398 - INFO - Send RTS
+2024-12-13 10:29:21,399 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:21,400 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:21,434 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:21,434 - INFO - FR received
+2024-12-13 10:29:21,435 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:21,435 - DEBUG - Start listen channel time: 1
+2024-12-13 10:29:21,436 - DEBUG - Channel free to transmit
+2024-12-13 10:29:21,436 - INFO - Send RTS
+2024-12-13 10:29:22,437 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:22,438 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:22,459 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:22,459 - INFO - FR received
+2024-12-13 10:29:22,459 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:22,460 - DEBUG - Start listen channel time: 8
+2024-12-13 10:29:22,468 - DEBUG - Channel free to transmit
+2024-12-13 10:29:22,468 - INFO - Send RTS
+2024-12-13 10:29:23,469 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:23,470 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:23,585 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:23,585 - INFO - FR received
+2024-12-13 10:29:23,585 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:23,586 - DEBUG - Start listen channel time: 13
+2024-12-13 10:29:23,599 - DEBUG - Channel free to transmit
+2024-12-13 10:29:23,599 - INFO - Send RTS
+2024-12-13 10:29:24,600 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:24,601 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:24,601 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:25,615 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:25,616 - INFO - FR received
+2024-12-13 10:29:25,616 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:25,616 - DEBUG - Start listen channel time: 21
+2024-12-13 10:29:25,637 - DEBUG - Channel free to transmit
+2024-12-13 10:29:25,638 - INFO - Send RTS
+2024-12-13 10:29:26,639 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:26,639 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:26,712 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:26,712 - INFO - FR received
+2024-12-13 10:29:26,712 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:26,712 - DEBUG - Start listen channel time: 12
+2024-12-13 10:29:26,725 - DEBUG - Channel free to transmit
+2024-12-13 10:29:26,725 - INFO - Send RTS
+2024-12-13 10:29:27,726 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:27,727 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:27,798 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:27,798 - INFO - FR received
+2024-12-13 10:29:27,798 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:27,799 - DEBUG - Start listen channel time: 42
+2024-12-13 10:29:27,841 - DEBUG - Channel free to transmit
+2024-12-13 10:29:27,841 - INFO - Send RTS
+2024-12-13 10:29:28,842 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:28,843 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:28,926 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:28,926 - INFO - FR received
+2024-12-13 10:29:28,926 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:28,927 - DEBUG - Start listen channel time: 36
+2024-12-13 10:29:28,963 - DEBUG - Channel free to transmit
+2024-12-13 10:29:28,963 - INFO - Send RTS
+2024-12-13 10:29:29,964 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:29,965 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:30,063 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:30,063 - INFO - FR received
+2024-12-13 10:29:30,063 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:30,063 - DEBUG - Start listen channel time: 23
+2024-12-13 10:29:30,087 - DEBUG - Channel free to transmit
+2024-12-13 10:29:30,087 - INFO - Send RTS
+2024-12-13 10:29:31,088 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:31,089 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:31,110 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:31,110 - INFO - FR received
+2024-12-13 10:29:31,110 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:31,110 - DEBUG - Start listen channel time: 9
+2024-12-13 10:29:31,120 - DEBUG - Channel free to transmit
+2024-12-13 10:29:31,120 - INFO - Send RTS
+2024-12-13 10:29:32,121 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:32,121 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:32,205 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:32,205 - INFO - FR received
+2024-12-13 10:29:32,205 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:32,205 - DEBUG - Start listen channel time: 19
+2024-12-13 10:29:32,225 - DEBUG - Channel free to transmit
+2024-12-13 10:29:32,225 - INFO - Send RTS
+2024-12-13 10:29:33,226 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:33,226 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:33,314 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:33,314 - INFO - FR received
+2024-12-13 10:29:33,315 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:33,315 - DEBUG - Start listen channel time: 47
+2024-12-13 10:29:33,362 - DEBUG - Channel free to transmit
+2024-12-13 10:29:33,362 - INFO - Send RTS
+2024-12-13 10:29:34,363 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:34,364 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:34,369 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:34,369 - INFO - FR received
+2024-12-13 10:29:34,369 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:34,370 - DEBUG - Start listen channel time: 24
+2024-12-13 10:29:34,394 - DEBUG - Channel free to transmit
+2024-12-13 10:29:34,394 - INFO - Send RTS
+2024-12-13 10:29:35,395 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:35,396 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:35,504 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:35,505 - INFO - FR received
+2024-12-13 10:29:35,505 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:35,505 - DEBUG - Start listen channel time: 21
+2024-12-13 10:29:35,527 - DEBUG - Channel free to transmit
+2024-12-13 10:29:35,527 - INFO - Send RTS
+2024-12-13 10:29:36,528 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:36,528 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:36,560 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:36,560 - INFO - FR received
+2024-12-13 10:29:36,561 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:36,561 - DEBUG - Start listen channel time: 35
+2024-12-13 10:29:36,596 - DEBUG - Channel free to transmit
+2024-12-13 10:29:36,596 - INFO - Send RTS
+2024-12-13 10:29:37,598 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:37,598 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:38,672 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:38,673 - INFO - FR received
+2024-12-13 10:29:38,673 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:38,673 - DEBUG - Start listen channel time: 33
+2024-12-13 10:29:38,706 - DEBUG - Channel free to transmit
+2024-12-13 10:29:38,707 - INFO - Send RTS
+2024-12-13 10:29:39,708 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:39,708 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:39,731 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:39,731 - INFO - FR received
+2024-12-13 10:29:39,731 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:39,731 - DEBUG - Start listen channel time: 10
+2024-12-13 10:29:39,742 - DEBUG - Channel free to transmit
+2024-12-13 10:29:39,742 - INFO - Send RTS
+2024-12-13 10:29:40,743 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:40,744 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:40,835 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:40,835 - INFO - FR received
+2024-12-13 10:29:40,835 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:40,836 - DEBUG - Start listen channel time: 46
+2024-12-13 10:29:40,882 - DEBUG - Channel free to transmit
+2024-12-13 10:29:40,882 - INFO - Send RTS
+2024-12-13 10:29:41,883 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:41,884 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:42,002 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:42,002 - INFO - FR received
+2024-12-13 10:29:42,003 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:42,003 - DEBUG - Start listen channel time: 24
+2024-12-13 10:29:42,027 - DEBUG - Channel free to transmit
+2024-12-13 10:29:42,027 - INFO - Send RTS
+2024-12-13 10:29:43,029 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:43,029 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:43,122 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:43,123 - INFO - FR received
+2024-12-13 10:29:43,123 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:43,123 - DEBUG - Start listen channel time: 12
+2024-12-13 10:29:43,135 - DEBUG - Channel free to transmit
+2024-12-13 10:29:43,135 - INFO - Send RTS
+2024-12-13 10:29:44,137 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:44,137 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:44,266 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:44,267 - INFO - FR received
+2024-12-13 10:29:44,267 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:44,267 - DEBUG - Start listen channel time: 40
+2024-12-13 10:29:44,307 - DEBUG - Channel free to transmit
+2024-12-13 10:29:44,307 - INFO - Send RTS
+2024-12-13 10:29:45,309 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:45,309 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:45,425 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:45,426 - INFO - FR received
+2024-12-13 10:29:45,426 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:45,426 - DEBUG - Start listen channel time: 11
+2024-12-13 10:29:45,437 - DEBUG - Channel free to transmit
+2024-12-13 10:29:45,438 - INFO - Send RTS
+2024-12-13 10:29:46,439 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:46,439 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:46,500 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:46,500 - INFO - FR received
+2024-12-13 10:29:46,500 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:46,500 - DEBUG - Start listen channel time: 27
+2024-12-13 10:29:46,528 - DEBUG - Channel free to transmit
+2024-12-13 10:29:46,528 - INFO - Send RTS
+2024-12-13 10:29:47,529 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:47,530 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:47,627 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:47,627 - INFO - FR received
+2024-12-13 10:29:47,627 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:47,627 - DEBUG - Start listen channel time: 16
+2024-12-13 10:29:47,644 - DEBUG - Channel free to transmit
+2024-12-13 10:29:47,644 - INFO - Send RTS
+2024-12-13 10:29:48,645 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:48,646 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:48,725 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:48,725 - INFO - FR received
+2024-12-13 10:29:48,725 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:48,725 - DEBUG - Start listen channel time: 54
+2024-12-13 10:29:48,780 - DEBUG - Channel free to transmit
+2024-12-13 10:29:48,780 - INFO - Send RTS
+2024-12-13 10:29:49,781 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:49,782 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:49,830 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:49,830 - INFO - FR received
+2024-12-13 10:29:49,830 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:49,831 - DEBUG - Start listen channel time: 13
+2024-12-13 10:29:49,844 - DEBUG - Channel free to transmit
+2024-12-13 10:29:49,844 - INFO - Send RTS
+2024-12-13 10:29:50,845 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:50,846 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:50,938 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:50,939 - INFO - FR received
+2024-12-13 10:29:50,939 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:50,939 - DEBUG - Start listen channel time: 38
+2024-12-13 10:29:50,977 - DEBUG - Channel free to transmit
+2024-12-13 10:29:50,977 - INFO - Send RTS
+2024-12-13 10:29:50,985 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:29:51,979 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:51,979 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:52,046 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:52,046 - INFO - FR received
+2024-12-13 10:29:52,046 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:52,047 - DEBUG - Start listen channel time: 4
+2024-12-13 10:29:52,051 - DEBUG - Channel free to transmit
+2024-12-13 10:29:52,051 - INFO - Send RTS
+2024-12-13 10:29:53,052 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:53,053 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:53,201 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:53,201 - INFO - FR received
+2024-12-13 10:29:53,201 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:53,201 - DEBUG - Start listen channel time: 38
+2024-12-13 10:29:53,240 - DEBUG - Channel free to transmit
+2024-12-13 10:29:53,240 - INFO - Send RTS
+2024-12-13 10:29:54,241 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:54,242 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:54,328 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:54,328 - INFO - FR received
+2024-12-13 10:29:54,328 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:54,329 - DEBUG - Start listen channel time: 55
+2024-12-13 10:29:54,384 - DEBUG - Channel free to transmit
+2024-12-13 10:29:54,384 - INFO - Send RTS
+2024-12-13 10:29:55,385 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:55,386 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:55,414 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:55,414 - INFO - FR received
+2024-12-13 10:29:55,415 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:55,415 - DEBUG - Start listen channel time: 11
+2024-12-13 10:29:55,426 - DEBUG - Channel free to transmit
+2024-12-13 10:29:55,426 - INFO - Send RTS
+2024-12-13 10:29:56,427 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:56,428 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:56,494 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:56,494 - INFO - FR received
+2024-12-13 10:29:56,494 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:56,494 - DEBUG - Start listen channel time: 11
+2024-12-13 10:29:56,506 - DEBUG - Channel free to transmit
+2024-12-13 10:29:56,506 - INFO - Send RTS
+2024-12-13 10:29:57,507 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:57,507 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:57,611 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:57,611 - INFO - FR received
+2024-12-13 10:29:57,611 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:57,611 - DEBUG - Start listen channel time: 29
+2024-12-13 10:29:57,640 - DEBUG - Channel free to transmit
+2024-12-13 10:29:57,641 - INFO - Send RTS
+2024-12-13 10:29:58,642 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:58,642 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:58,767 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:58,768 - INFO - FR received
+2024-12-13 10:29:58,768 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:58,768 - DEBUG - Start listen channel time: 10
+2024-12-13 10:29:58,778 - DEBUG - Channel free to transmit
+2024-12-13 10:29:58,779 - INFO - Send RTS
+2024-12-13 10:29:59,780 - WARNING - Node has not replay the RTS
+2024-12-13 10:29:59,780 - DEBUG - Listening Discovery channel...
+2024-12-13 10:29:59,932 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:29:59,932 - INFO - FR received
+2024-12-13 10:29:59,933 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:29:59,933 - DEBUG - Start listen channel time: 31
+2024-12-13 10:29:59,964 - DEBUG - Channel free to transmit
+2024-12-13 10:29:59,964 - INFO - Send RTS
+2024-12-13 10:30:00,965 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:00,966 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:01,033 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:01,033 - INFO - FR received
+2024-12-13 10:30:01,033 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:01,033 - DEBUG - Start listen channel time: 33
+2024-12-13 10:30:01,067 - DEBUG - Channel free to transmit
+2024-12-13 10:30:01,067 - INFO - Send RTS
+2024-12-13 10:30:02,045 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:02,068 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:02,069 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:03,161 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:03,161 - INFO - FR received
+2024-12-13 10:30:03,161 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:03,161 - DEBUG - Start listen channel time: 11
+2024-12-13 10:30:03,173 - DEBUG - Channel free to transmit
+2024-12-13 10:30:03,173 - INFO - Send RTS
+2024-12-13 10:30:04,174 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:04,175 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:04,196 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:04,196 - INFO - FR received
+2024-12-13 10:30:04,197 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:04,197 - DEBUG - Start listen channel time: 28
+2024-12-13 10:30:04,225 - DEBUG - Channel free to transmit
+2024-12-13 10:30:04,225 - INFO - Send RTS
+2024-12-13 10:30:05,227 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:05,227 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:05,236 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:05,236 - INFO - FR received
+2024-12-13 10:30:05,236 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:05,237 - DEBUG - Start listen channel time: 28
+2024-12-13 10:30:05,265 - DEBUG - Channel free to transmit
+2024-12-13 10:30:05,265 - INFO - Send RTS
+2024-12-13 10:30:06,266 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:06,267 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:06,391 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:06,391 - INFO - FR received
+2024-12-13 10:30:06,391 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:06,391 - DEBUG - Start listen channel time: 36
+2024-12-13 10:30:06,428 - DEBUG - Channel free to transmit
+2024-12-13 10:30:06,428 - INFO - Send RTS
+2024-12-13 10:30:07,429 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:07,430 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:07,527 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:07,527 - INFO - FR received
+2024-12-13 10:30:07,527 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:07,527 - DEBUG - Start listen channel time: 15
+2024-12-13 10:30:07,543 - DEBUG - Channel free to transmit
+2024-12-13 10:30:07,543 - INFO - Send RTS
+2024-12-13 10:30:08,544 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:08,545 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:08,573 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:08,573 - INFO - FR received
+2024-12-13 10:30:08,573 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:08,573 - DEBUG - Start listen channel time: 25
+2024-12-13 10:30:08,598 - DEBUG - Channel free to transmit
+2024-12-13 10:30:08,599 - INFO - Send RTS
+2024-12-13 10:30:08,607 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:30:09,600 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:09,600 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:09,608 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:09,608 - INFO - FR received
+2024-12-13 10:30:09,609 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:09,609 - DEBUG - Start listen channel time: 9
+2024-12-13 10:30:09,618 - DEBUG - Channel free to transmit
+2024-12-13 10:30:09,618 - INFO - Send RTS
+2024-12-13 10:30:10,619 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:10,620 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:10,666 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:10,666 - INFO - FR received
+2024-12-13 10:30:10,666 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:10,666 - DEBUG - Start listen channel time: 5
+2024-12-13 10:30:10,672 - DEBUG - Channel free to transmit
+2024-12-13 10:30:10,672 - INFO - Send RTS
+2024-12-13 10:30:11,673 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:11,674 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:11,694 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:11,694 - INFO - FR received
+2024-12-13 10:30:11,694 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:11,694 - DEBUG - Start listen channel time: 30
+2024-12-13 10:30:11,725 - DEBUG - Channel free to transmit
+2024-12-13 10:30:11,725 - INFO - Send RTS
+2024-12-13 10:30:11,742 - DEBUG - Message recieved: 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 1
+2024-12-13 10:30:12,726 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:12,726 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:12,817 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:12,817 - INFO - FR received
+2024-12-13 10:30:12,817 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:12,818 - DEBUG - Start listen channel time: 28
+2024-12-13 10:30:12,846 - DEBUG - Channel free to transmit
+2024-12-13 10:30:12,846 - INFO - Send RTS
+2024-12-13 10:30:13,842 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:13,847 - WARNING - Node has not replay the RTS
+2024-12-13 10:30:13,847 - DEBUG - Listening Discovery channel...
+2024-12-13 10:30:14,932 - DEBUG - Message recieved: 0 0 0 0 0 0 1 1
+2024-12-13 10:30:14,937 - INFO - FR received
+2024-12-13 10:30:14,943 - INFO - RTS packet 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0
+2024-12-13 10:30:14,948 - DEBUG - Start listen channel time: 22
+2024-12-13 10:30:14,975 - DEBUG - Channel free to transmit
+2024-12-13 10:30:14,981 - INFO - Send RTS
+2024-12-13 10:30:15,837 - WARNING - Timeout, transmission finish
+2024-12-13 10:30:15,843 - DEBUG - Listening Discovery channel...

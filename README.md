@@ -1,10 +1,10 @@
-# MTP-TeamA (The Winning Team)
+# MTP-TeamA
 
 ## Summary table
 - **Microcontroller**: Raspberry Pi Zero 2 W
-- **Operating System**: Raspberry Pi OS Lite (Terminal Only)
+- **Operating System**: Raspberry Pi OS
 - **Transciever**: nRF24L01
-- **Programming language**: C++
+- **Programming language**: Python
 
 ## Connecting to the Raspberry Pi
 You can connect to the Raspberry Pi using SSH.
@@ -50,8 +50,10 @@ Raspberry:
 
 ## Tasks
 - [x] Install OS & Set up.
-- [ ] Read file from USB: Detect when an USB device has been connected and read the content of the .txt file.
+- [x] Read file from USB: Detect when an USB device has been connected and read the content of the .txt file.
 - [x] Ping with the tranciever: Enable the communication with the nRF24 module.
+- [x] Enabling LCD display.
+- [x] Automatic start python code.
 
 ----
 # Completed Tasks (Explanation for traceability)
@@ -79,7 +81,7 @@ Signin for remote access:
 ```bash
 admin@TeamA-1:~ $ rpi-connect signin
 ```
-## Enabling SPI bus
+## Enabling SPI bus (same for I2C)
 ```bash
 admin@TeamA-1:~ $ sudo raspi-config
 ```

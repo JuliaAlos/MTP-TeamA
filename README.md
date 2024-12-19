@@ -151,6 +151,22 @@ sudo dphys-swapfile swapon
 ----
 Now, everything should work. We tested it by running the example from the library. [Example](https://github.com/nRF24/RF24/blob/master/examples_linux/getting_started.py)
 
+## Task: LCD display
+For the use of the Python libraries required by the LCD, it is necessary to create a Python environment. To do that, create an environment with the following command:
+```bash
+python -m venv venv
+```
+To activate the environment, use:
+```bash
+source venv/bin/activate
+```
+Having the Python environment activated can cause problems in finding the nRF24 library. This can be resolved by specifying the library's installation path as follows
+```python
+import sys
+sys.path.append('/usr/local/lib/python3.11/dist-packages/RF24-1.4.10-py3.11-linux-aarch64.egg')
+from RF24 import *
+```
+
 ## Task: Automatic start python code
 ```bash
 sudo nano /etc/systemd/system/mtp.service
